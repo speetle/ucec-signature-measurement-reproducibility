@@ -1,0 +1,9 @@
+{
+  "sample": "GSM8556537",
+  "coarse_counts": {
+    "Epithelial": 3810,
+    "Stromal": 193
+  },
+  "annotation": "Canonical marker consensus with lineage-specific gates; ubiquitous XBP1/CD74 do not alone define plasma/B cells; conservative assay-specific thresholds before response-score inspection; ambiguous retained; epithelial not automatically malignant",
+  "source_assay": "decontXlogcounts; raw sensitivity retained"
+}

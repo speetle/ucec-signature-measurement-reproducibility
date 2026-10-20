@@ -1,0 +1,38 @@
+{
+  "scope": "Bounded sequential R2 prefixes, exploratory sample consistency; not recovered author donor identity, full raw assay reconstruction, genotype-based clinical identification, or validated snRNA-seq germline genotyping",
+  "usable_prefix_runs": 11,
+  "retrieved_samples": 10,
+  "failed_or_pending_inputs": [
+    {
+      "run": "SRR30893539",
+      "reason": "FASTQ phase/format mismatch"
+    }
+  ],
+  "shorter_valid_prefix_runs": [
+    "SRR30893541"
+  ],
+  "expected_runs": 12,
+  "expected_samples": 11,
+  "run_coverage_pass": 2,
+  "positive_control": {
+    "first": "SRR30893532",
+    "second": "SRR30893533",
+    "shared_SNPs": 1273,
+    "correlation": 0.7334927998738936,
+    "classifier_depth": 0.6143265986074922,
+    "coverage_pass": true,
+    "default_matched": true,
+    "family_strict_matched": true,
+    "both_depth2_SNPs": 761,
+    "both_depth2_correlation": 0.8090190332804877,
+    "interpretation": "genetically concordant"
+  },
+  "positive_control_pass": true,
+  "sample_pairs": 45,
+  "expected_sample_pairs": 55,
+  "qualified_pairs": 0,
+  "concordant_qualified_pairs": 0,
+  "discordant_qualified_pairs": 0,
+  "all_11_unique_donors_established": false,
+  "policy": "Unique author donor IDs and tissue relationships cannot be reconstructed from this audit. Tumor LOH, allele-specific expression, PCR duplication and nonrandom prefixes limit genotype interpretation; no donor-independent nuclear P value is added."
+}

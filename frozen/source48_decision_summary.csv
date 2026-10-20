@@ -1,0 +1,7 @@
+"threshold","median_incremental_NB","stability_low","stability_high","positive_fraction","paired_draws","interpretation"
+0.05,0,-0.0106953669909887,0.0113488499053774,0.274,500,"Illustrative thresholds, no specified clinical action; OOB stability range, not CI or clinical utility proof"
+0.1,0,-0.0113845732626664,0.00992872285887887,0.302,500,"Illustrative thresholds, no specified clinical action; OOB stability range, not CI or clinical utility proof"
+0.15,0,-0.0126232895328751,0.011624999567485,0.36,500,"Illustrative thresholds, no specified clinical action; OOB stability range, not CI or clinical utility proof"
+0.2,0,-0.0158007996217308,0.00957082030148451,0.26,500,"Illustrative thresholds, no specified clinical action; OOB stability range, not CI or clinical utility proof"
+0.25,0,-0.0192551404543893,0.00891249254914112,0.21,500,"Illustrative thresholds, no specified clinical action; OOB stability range, not CI or clinical utility proof"
+0.3,0,-0.0215573470158871,0.0121996149815369,0.202,500,"Illustrative thresholds, no specified clinical action; OOB stability range, not CI or clinical utility proof"

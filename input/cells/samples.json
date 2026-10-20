@@ -1,0 +1,156 @@
+[
+  {
+    "sample": "GSM5276933",
+    "dataset": "GSE173682",
+    "title": "Patient_1_3533EL_RNA",
+    "race_ethnicity": "African American",
+    "tissue": "Tumor",
+    "tumor_site": "Endometrium",
+    "histology": "Endometrioid",
+    "metastatic status": "Primary/Non-metastatic",
+    "patient": "1"
+  },
+  {
+    "sample": "GSM5276934",
+    "dataset": "GSE173682",
+    "title": "Patient_2_3571DL_RNA",
+    "race_ethnicity": "Caucasian",
+    "tissue": "Tumor",
+    "tumor_site": "Endometrium",
+    "histology": "Endometrioid",
+    "metastatic status": "Primary/Non-metastatic",
+    "patient": "2"
+  },
+  {
+    "sample": "GSM5276935",
+    "dataset": "GSE173682",
+    "title": "Patient_3_36186L_RNA",
+    "race_ethnicity": "Caucasian",
+    "tissue": "Tumor",
+    "tumor_site": "Endometrium",
+    "histology": "Endometrioid",
+    "metastatic status": "Primary/Non-metastatic",
+    "patient": "3"
+  },
+  {
+    "sample": "GSM5276936",
+    "dataset": "GSE173682",
+    "title": "Patient_4_36639L_RNA",
+    "race_ethnicity": "Caucasian",
+    "tissue": "Tumor",
+    "tumor_site": "Endometrium",
+    "histology": "Endometrioid",
+    "metastatic status": "Primary/Non-metastatic",
+    "patient": "4"
+  },
+  {
+    "sample": "GSM5276937",
+    "dataset": "GSE173682",
+    "title": "Patient_5_366C5L_RNA",
+    "race_ethnicity": "Caucasian",
+    "tissue": "Tumor",
+    "tumor_site": "Endometrium",
+    "histology": "Endometrioid",
+    "metastatic status": "Primary/Non-metastatic",
+    "patient": "5"
+  },
+  {
+    "sample": "GSM8556535",
+    "dataset": "GSE278879",
+    "title": "high grade endometrioid endometrial cancer of patient1",
+    "pathlogy": "endometrioid endometrial cancer",
+    "age": "54",
+    "grade": "High",
+    "tissue": "endometrioid endometrial"
+  },
+  {
+    "sample": "GSM8556536",
+    "dataset": "GSE278879",
+    "title": "high grade endometrioid endometrial cancer of patient2",
+    "pathlogy": "endometrioid endometrial cancer",
+    "age": "56",
+    "grade": "High",
+    "tissue": "endometrioid endometrial"
+  },
+  {
+    "sample": "GSM8556537",
+    "dataset": "GSE278879",
+    "title": "high grade endometrioid endometrial cancer of patient3",
+    "pathlogy": "endometrioid endometrial cancer",
+    "age": "59",
+    "grade": "High",
+    "tissue": "endometrioid endometrial"
+  },
+  {
+    "sample": "GSM8556538",
+    "dataset": "GSE278879",
+    "title": "middle grade endometrioid endometrial cancer of patient1",
+    "pathlogy": "endometrioid endometrial cancer",
+    "age": "58",
+    "grade": "Middle",
+    "tissue": "endometrioid endometrial"
+  },
+  {
+    "sample": "GSM8556539",
+    "dataset": "GSE278879",
+    "title": "middle grade endometrioid endometrial cancer of patient2",
+    "pathlogy": "endometrioid endometrial cancer",
+    "age": "61",
+    "grade": "Middle",
+    "tissue": "endometrioid endometrial"
+  },
+  {
+    "sample": "GSM8556540",
+    "dataset": "GSE278879",
+    "title": "low grade endometrioid endometrial cancer of patient1",
+    "pathlogy": "endometrioid endometrial cancer",
+    "age": "57",
+    "grade": "Low",
+    "tissue": "endometrioid endometrial"
+  },
+  {
+    "sample": "GSM8556541",
+    "dataset": "GSE278879",
+    "title": "low grade endometrioid endometrial cancer of patient2",
+    "pathlogy": "endometrioid endometrial cancer",
+    "age": "56",
+    "grade": "Low",
+    "tissue": "endometrioid endometrial"
+  },
+  {
+    "sample": "GSM8556542",
+    "dataset": "GSE278879",
+    "title": "normal endometrium of patient1",
+    "pathlogy": "normal endometrium",
+    "age": "44",
+    "grade": "n/a",
+    "tissue": "endometrium"
+  },
+  {
+    "sample": "GSM8556543",
+    "dataset": "GSE278879",
+    "title": "normal endometrium of patient2",
+    "pathlogy": "normal endometrium",
+    "age": "55",
+    "grade": "n/a",
+    "tissue": "endometrium"
+  },
+  {
+    "sample": "GSM8556544",
+    "dataset": "GSE278879",
+    "title": "normal endometrium of patient3",
+    "pathlogy": "normal endometrium",
+    "age": "48",
+    "grade": "n/a",
+    "tissue": "endometrium"
+  },
+  {
+    "sample": "GSM8556545",
+    "dataset": "GSE278879",
+    "title": "normal endometrium of patient4",
+    "pathlogy": "normal endometrium",
+    "age": "44",
+    "grade": "n/a",
+    "tissue": "endometrium"
+  }
+]

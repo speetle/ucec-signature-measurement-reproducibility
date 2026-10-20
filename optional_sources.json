@@ -1,0 +1,16 @@
+[
+  {
+    "file": "input/rppa/TCPA_TCGA_RPPA500.zip",
+    "url": "https://tcpa.drbioright.org/rppa500/_design/basic/download/TCPA_TCGA_RPPA500.zip",
+    "sha256": "787600590f0c08d7227ddae20c45747b29c3f91dfe50c70aa5dcebce65a1c435",
+    "bytes": 14307233,
+    "redistributed": false
+  },
+  {
+    "file": "input/rppa/RPPA500_supplementary_tables.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43018-024-00817-x/MediaObjects/43018_2024_817_MOESM2_ESM.xlsx",
+    "sha256": "734d1303264ed2d9b0a443fc3a62e5bafc12eb6cb878ce6c3c85f697783abaec",
+    "bytes": 59054,
+    "redistributed": false
+  }
+]

@@ -1,0 +1,5 @@
+cohort,model,n,delta,design_columns,rank_deficient,scale,low,high,valid_bootstraps
+external138,clinical_batch,128,0.17547724775682105,10,21,protein refit + covariate refit,0.0811990759558156,0.2682273351396561,1000
+external138,clinical_DNA_purity,128,0.17897935359824213,11,21,protein refit + covariate refit,0.0718114493361774,0.27160279609533217,1000
+external138,clinical_xCell,128,0.18799212598425202,12,21,protein refit + covariate refit,0.0661076024788402,0.2943788538160152,1000
+external138,clinical_DNA_xCell,128,0.18613234755539276,13,21,protein refit + covariate refit,0.06518541092298549,0.3037891685784444,1000

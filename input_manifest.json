@@ -1,0 +1,1280 @@
+[
+  {
+    "file": "input/discovery/protein.csv.gz",
+    "sha256": "c3babea097b7bb06ced4840a073d1076d3cea684a0074aae1b79148ec8505a0b",
+    "bytes": 8633451,
+    "stage": "publisher processed matrix or frozen cohort design"
+  },
+  {
+    "file": "input/discovery/plan.json",
+    "sha256": "cd54be3a7946593f2415188671fe923efdfc5325b385bf210a76d6ae6bad93b4",
+    "bytes": 6238,
+    "stage": "publisher processed matrix or frozen cohort design"
+  },
+  {
+    "file": "input/discovery/CPTAC_model.csv",
+    "sha256": "e7a9e8c25b2fbfe4c2d8a4d64e2a88ce73a1e2bc68d326989ccf6e5bf09f16fd",
+    "bytes": 43404,
+    "stage": "publisher processed matrix or frozen cohort design"
+  },
+  {
+    "file": "input/discovery/RNA.csv.gz",
+    "sha256": "ffc350da1df7d1a706dfa16494a2aefaffa29374dcdeb5de6b0a5c6ab579d18f",
+    "bytes": 2987310,
+    "stage": "publisher processed matrix or frozen cohort design"
+  },
+  {
+    "file": "input/external/protein.csv.gz",
+    "sha256": "4305b2d12c5156f9f3851620ab73edc32b0478ffb39f24a0c67bec2a437f4cd4",
+    "bytes": 3004737,
+    "stage": "publisher processed matrix or frozen cohort design"
+  },
+  {
+    "file": "input/external/metadata.csv",
+    "sha256": "a7b784f6297bb16b6afa26ca995f884181d21e94f1c295e3cb569911dfa5505f",
+    "bytes": 322565,
+    "stage": "source adapter preserves original float categorical Plex labels; values verified against previous input"
+  },
+  {
+    "file": "input/external/RNA.csv.gz",
+    "sha256": "381066062a296adfa3a8c6158a4cfd926dc0cb0be6090fb5aeaf8d31936e1f25",
+    "bytes": 4237712,
+    "stage": "publisher processed matrix or frozen cohort design"
+  },
+  {
+    "file": "input/hallmark.gmt",
+    "sha256": "f22066af72e215ccb7b89d88e492c07e1eef17534c2ca7b0f9902cfecbbdd8e9",
+    "bytes": 48689,
+    "stage": "third-party gene-set definition"
+  },
+  {
+    "file": "frozen/precision_background_results.csv",
+    "sha256": "ee201c4389621b2a73c09eef244e863a5582dfbd2717373df40fcbf9219ed80f",
+    "bytes": 5477,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/reduced_model_sensitivity.csv",
+    "sha256": "955e4261e8732d353a559ade301593325cfa95fd93c0643813ab07a48396a31b",
+    "bytes": 425,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/discovery95_patient_scores.csv",
+    "sha256": "f3861957548f0c00066c4f95d27443fa65d7b80fa74a430d1abc074b822ba728",
+    "bytes": 8554,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/external138_patient_scores.csv",
+    "sha256": "b5902ea45011714b269130168da197bc4c72c5f5109e2906de618b6173954c05",
+    "bytes": 12429,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/heldout_score_models.csv",
+    "sha256": "98c86efd03431b0309ab6967f1235379385545d8519972d4f75148b0ffb65942",
+    "bytes": 4397,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/weight_contrasts_bootstrap.csv",
+    "sha256": "c128f65e5518e3ebf38dcb59dc47a274d7f4174b646a54a82994ad75dfdf72bf",
+    "bytes": 2960,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/null_summary.csv",
+    "sha256": "0a9d94e7d21f1a9136e6947035da8e3c4259a4404b5be45704c3674ad637faa8",
+    "bytes": 638,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/within_batch_permutations.csv",
+    "sha256": "0430583c22d563e09a050317c4052febb43d16006414885139a0b4ea095d84b8",
+    "bytes": 195747,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/bootstrap_draws.csv.gz",
+    "sha256": "38acd4e2cbc75cde8d3bd8b59d9eb6ec9a346787f0c693257f26638e4342cc90",
+    "bytes": 462138,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/discovery95_scores.csv",
+    "sha256": "0e40e535c03b5bca177bd52a6b5fc2655a5febf0f6f394ae3eb7d32c189b396e",
+    "bytes": 8625,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/external138_scores.csv",
+    "sha256": "77a4f02294f1594dc6924beb8fe7bfe4d21149a3740d75f34b7f47d6959f9a1e",
+    "bytes": 12496,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/coexpression_null_results.csv",
+    "sha256": "d913ef4633dcb4acb1eaf37dcb4ad17a1157c8a0fad9354ceec3522808cccd7a",
+    "bytes": 664189,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/coexpression_null_summary.csv",
+    "sha256": "9a70e32df9bea8c269340e8168fb53baa0b7594d7f56d8d50a2987f09e81d837",
+    "bytes": 917,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/coexpression_frozen_panels.csv.gz",
+    "sha256": "e7260f705c5cf0b7d4dc5c40925e90b661bab609d3c7eb03500ae3f3d714d027",
+    "bytes": 964456,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/protein29_jackknife.csv",
+    "sha256": "bafd316632e310a3d9f013c674c4f4c9fa2be673e0254ac6ff23c0da3a0996c9",
+    "bytes": 4603,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/LOXL3_assumption_stress.csv",
+    "sha256": "205ae6a9da3e5abd544be372121f8fb0813a349f9ae5335f1741c1eb2ae7032b",
+    "bytes": 5540,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/missingness_associations.csv",
+    "sha256": "8b8522d644ff7874c5db4f013bdc6b56cbd3aea00bf1f0502aa8ad27158644f7",
+    "bytes": 2194,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/protein_missingness.csv",
+    "sha256": "1dbbe152266fb994090c738d7bdb47cdb5af22c70bbffd6e6274702749e5f7cb",
+    "bytes": 1781,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "input/missingness_associations.csv",
+    "sha256": "8b8522d644ff7874c5db4f013bdc6b56cbd3aea00bf1f0502aa8ad27158644f7",
+    "bytes": 2194,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/DNA_purity_sensitivity.csv",
+    "sha256": "e4a4fb86d47c5e2fc633897f32a985774b4c01c02f077fbe2087b89319cb6550",
+    "bytes": 622,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/hallmark_eligibility.csv",
+    "sha256": "a0228a69a61f66baaca077fc1fbb34fcae01bd03ec6c3ef70c30c30c253e02b4",
+    "bytes": 6244,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/full_pipeline_bootstrap_summary.csv",
+    "sha256": "1d89ec5c83156c21fe7e840d2f449062102f6dcdc4c88d1767fd2eed62c42fd2",
+    "bytes": 891,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/joint_missingness_deletion.csv",
+    "sha256": "f744312b88de1eca5289fab1bd0c0601cd49a7dfd93f9dde7b3e0e1b0bb4f37d",
+    "bytes": 617,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/hallmark_actual_correspondence.csv",
+    "sha256": "85552ef30b395ef2584c95084e9954af5d6a441e69db66c484d65c065b484d68",
+    "bytes": 14006,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/external138_hallmark_bootstraps.csv.gz",
+    "sha256": "6ff3d8d9d7439e321c44acff0be21575f9ced936a77d31322bf628f933900fd1",
+    "bytes": 286671,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/hallmark_frozen_members.csv",
+    "sha256": "2a438150890535df63c2f35d66e5a3def79881a063e0a6062b4b3ca47a69edab",
+    "bytes": 332582,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/hallmark_patient_coverage.csv.gz",
+    "sha256": "c422ee2d58751dee50902f463b3c8a534f994c1aa05ccdf64763c289dfe38844",
+    "bytes": 34158,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/purity_patient_eligibility.csv",
+    "sha256": "2b7efb1377db809df56cce942604ea9aebd4463aabc5df896e95036a8bc2343d",
+    "bytes": 4906,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/full_pipeline_bootstrap_draws.csv.gz",
+    "sha256": "b9eb15bc5a7baef816160a71185a5f68b156b24ff0ea03d9a105905f27066d4b",
+    "bytes": 171981,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/leave_batch_plex_out.csv",
+    "sha256": "9ae0687c640ed1b428f90cc1cbff5fd7d5563560da36d9dfce543fe23bf720d2",
+    "bytes": 3035,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/hallmark_external_missing_members.csv",
+    "sha256": "13a002957c7185cac578509e5767cd5d72de552e47b6988266e29a9412027954",
+    "bytes": 1660,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/hallmark_dependence_summary.csv",
+    "sha256": "b139b5b416bc6f94da09675beb576f70602218fff6f63b0e78b00ca1a0557503",
+    "bytes": 619,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/hallmark_shared_scope_summary.csv",
+    "sha256": "d3771f657b3e83915f16cdda7c23431887163e5136ded43190fc7d7afe0a8b3b",
+    "bytes": 432,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/discovery95_hallmark_bootstraps.csv.gz",
+    "sha256": "cf985a1fcef0a7c6d2e135fb49897eca17e091c2090e7349804a9b1049f5cf44",
+    "bytes": 456281,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/real_panel_factorial_metrics.csv",
+    "sha256": "49f9bd70c4097bfc031ceb1d325b46f832f596184228b17a6c8ca0e9d7203a30",
+    "bytes": 10017,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/real_panel_patient_scores.csv.gz",
+    "sha256": "d5eafa583e5ec8b28f4306feaaa564bb30bb90d03cf50a243eeee7d45372936a",
+    "bytes": 77462,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/frozen_transfer_scenarios.csv.gz",
+    "sha256": "31ccf6c490d20539991aa7585ebd68b34ba579bfdc7d840f089435a0936d3e4e",
+    "bytes": 6993070,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/frozen_transfer_summary_by_family.csv",
+    "sha256": "04f4b023f851b4a7647b0b272b27089d3a1ac8959abc20b20a47691b4d9ad4df",
+    "bytes": 21761,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/signature_specific_summary.csv",
+    "sha256": "2b7cb085d6e3ee34470724d691710fe8cdc661c456be132b6d00673fee09ec4d",
+    "bytes": 356106,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/measurement_gene_lists.json",
+    "sha256": "ca2fc6932dbd93303421c19037dc3b406d957db3f23967f8d7044beb40a26f58",
+    "bytes": 463509,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/RPPA_Hallmark_dependent_correlations.csv",
+    "sha256": "f6e3670e503eb3e7af61430d7f405ae3659ce7467f359e2ccc51ce2d58eac5e9",
+    "bytes": 19856,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/RPPA_Hallmark_patient_scores.csv.gz",
+    "sha256": "800ebaad03c8e321b68fc292a31f3eecba35fbea2a00e47f8c4aeed4b76440d4",
+    "bytes": 697128,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/RPPA_Hallmark_coverage.csv",
+    "sha256": "1c1a90eff8f017170018dffd21440793e41c4d327dd0aa88c96a67dbae755ce1",
+    "bytes": 5007,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/RPPA500_fixed_panel_coverage.csv",
+    "sha256": "ad7041e48e1b6ff73cac7e594ae12b76ca209d7c466441f3423733391c715e43",
+    "bytes": 1683,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/GSE17025_tumor_primary_scores.csv",
+    "sha256": "c67fec3e92cd1d0de401f8932ff7d5487cdcd445890eb31fe0947ec8359bb3c3",
+    "bytes": 12300,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/GSE63678_tumor_primary_scores.csv",
+    "sha256": "d23731eb71119f35f8bc9d7fa8ffb4ae39c1ccd51567a78b841bb9f04b3f69e1",
+    "bytes": 1147,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/array_panel_sensitivity.csv",
+    "sha256": "6c5a8eb3414bed8fcb7d37079a61e0027a4f6433af01c91b294f8f9a0d65f4a3",
+    "bytes": 4831,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/TCGA48_input.csv",
+    "sha256": "16338467150b67520933245e7940448544e0ff94fbcea355f75de6016bc4d2be",
+    "bytes": 169546,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/source48_increment_bootstrap.csv",
+    "sha256": "7ebac6aa1b5ee433b0cd302e002ee748507a34fb9484ce68d3815808fb3e55d1",
+    "bytes": 351686,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/source48_increment_summary.csv",
+    "sha256": "657afbdb7fd1836c8d64bac11af2db42770e99d2214fe55ba6a345b32df696cc",
+    "bytes": 389,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/source48_decision_summary.csv",
+    "sha256": "b7fe7d267d901936d1695469a47e683f75adbde61cff5048b73e72aba5c943df",
+    "bytes": 1119,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/source48_decision_bootstrap.csv",
+    "sha256": "751a7fe2401e695a74cea8d76d69851811a1831d28a3c0121d35df07321ea5a7",
+    "bytes": 440991,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/source48_performance.csv",
+    "sha256": "e185d4a9520270d16bad38972b0bc5b29f7b37ad97a32680baf0f74cf3e85839",
+    "bytes": 487,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/external_survival_exploratory.csv",
+    "sha256": "88a24d64602089aba49b55d2ebf2938e9e6287c0984db50d73c71fb45c35fa3e",
+    "bytes": 302,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/Hunt_case_summary.csv",
+    "sha256": "564306e3e23ebdd23e75a9870ef5ed4a68a6af8ed848d67d1c7d8759de003c51",
+    "bytes": 865,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/admixture_curves.csv",
+    "sha256": "7d769840a3450310611b6959771e10fd673c5b8ccae9820d4e074ccba7f7a2b6",
+    "bytes": 10192,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/lineage_pseudobulk.csv",
+    "sha256": "344fb3948f9aa1825cd24fbce6093d5df2dd6d8864a60f0e8899067df8c7a663",
+    "bytes": 65910,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/fingerprint_summary.json",
+    "sha256": "15b2a002b4c2a810e2a31bb126a453e0d235019e147cd892bff22b0e7aaa2d35",
+    "bytes": 1438,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "frozen/AOI_geometry_audit.json",
+    "sha256": "c906aa23a434599c16e052d9de8e58f4580777a93ea38e5e5016d5006dd21ab4",
+    "bytes": 423,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "src/clinical_increment.R",
+    "sha256": "35151f2f106a16947e8137045b652d42b9545f72e2cdd393e3ec0e19aaa4c146",
+    "bytes": 6022,
+    "stage": "original analysis code, portable output argument"
+  },
+  {
+    "file": "input/clinical/TCGA48_input.csv",
+    "sha256": "16338467150b67520933245e7940448544e0ff94fbcea355f75de6016bc4d2be",
+    "bytes": 169546,
+    "stage": "derived public clinical analysis input"
+  },
+  {
+    "file": "expected/clinical/source48_performance.csv",
+    "sha256": "e185d4a9520270d16bad38972b0bc5b29f7b37ad97a32680baf0f74cf3e85839",
+    "bytes": 487,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/clinical/source48_increment_summary.csv",
+    "sha256": "657afbdb7fd1836c8d64bac11af2db42770e99d2214fe55ba6a345b32df696cc",
+    "bytes": 389,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/clinical/source48_decision_summary.csv",
+    "sha256": "b7fe7d267d901936d1695469a47e683f75adbde61cff5048b73e72aba5c943df",
+    "bytes": 1119,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/DNA_purity_sensitivity.csv",
+    "sha256": "e4a4fb86d47c5e2fc633897f32a985774b4c01c02f077fbe2087b89319cb6550",
+    "bytes": 622,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/hallmark_eligibility.csv",
+    "sha256": "a0228a69a61f66baaca077fc1fbb34fcae01bd03ec6c3ef70c30c30c253e02b4",
+    "bytes": 6244,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/full_pipeline_bootstrap_summary.csv",
+    "sha256": "1d89ec5c83156c21fe7e840d2f449062102f6dcdc4c88d1767fd2eed62c42fd2",
+    "bytes": 891,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/joint_missingness_deletion.csv",
+    "sha256": "f744312b88de1eca5289fab1bd0c0601cd49a7dfd93f9dde7b3e0e1b0bb4f37d",
+    "bytes": 617,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/hallmark_actual_correspondence.csv",
+    "sha256": "85552ef30b395ef2584c95084e9954af5d6a441e69db66c484d65c065b484d68",
+    "bytes": 14006,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/external138_hallmark_bootstraps.csv.gz",
+    "sha256": "6ff3d8d9d7439e321c44acff0be21575f9ced936a77d31322bf628f933900fd1",
+    "bytes": 286671,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/hallmark_frozen_members.csv",
+    "sha256": "2a438150890535df63c2f35d66e5a3def79881a063e0a6062b4b3ca47a69edab",
+    "bytes": 332582,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/hallmark_patient_coverage.csv.gz",
+    "sha256": "c422ee2d58751dee50902f463b3c8a534f994c1aa05ccdf64763c289dfe38844",
+    "bytes": 34158,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/purity_patient_eligibility.csv",
+    "sha256": "2b7efb1377db809df56cce942604ea9aebd4463aabc5df896e95036a8bc2343d",
+    "bytes": 4906,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/full_pipeline_bootstrap_draws.csv.gz",
+    "sha256": "b9eb15bc5a7baef816160a71185a5f68b156b24ff0ea03d9a105905f27066d4b",
+    "bytes": 171981,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/leave_batch_plex_out.csv",
+    "sha256": "9ae0687c640ed1b428f90cc1cbff5fd7d5563560da36d9dfce543fe23bf720d2",
+    "bytes": 3035,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/hallmark_external_missing_members.csv",
+    "sha256": "13a002957c7185cac578509e5767cd5d72de552e47b6988266e29a9412027954",
+    "bytes": 1660,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/hallmark_dependence_summary.csv",
+    "sha256": "b139b5b416bc6f94da09675beb576f70602218fff6f63b0e78b00ca1a0557503",
+    "bytes": 619,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/hallmark_shared_scope_summary.csv",
+    "sha256": "d3771f657b3e83915f16cdda7c23431887163e5136ded43190fc7d7afe0a8b3b",
+    "bytes": 432,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "expected/ms/discovery95_hallmark_bootstraps.csv.gz",
+    "sha256": "cf985a1fcef0a7c6d2e135fb49897eca17e091c2090e7349804a9b1049f5cf44",
+    "bytes": 456281,
+    "stage": "frozen derived source"
+  },
+  {
+    "file": "input/arrays/GSE17025_gene_expression.csv.gz",
+    "sha256": "db9bb6ab95282b5c2a05790d2c51287386dac265556e0fa0b4f5decc71d92d6e",
+    "bytes": 14324560,
+    "stage": "author/GEO processed microarray matrix or parsed sample metadata"
+  },
+  {
+    "file": "input/arrays/GSE17025_sample_metadata.csv",
+    "sha256": "a1a55053d8f6309270d4a1cf3fb70b2c97ca9eeae3913c3bc75050d878b01b23",
+    "bytes": 350624,
+    "stage": "author/GEO processed microarray matrix or parsed sample metadata"
+  },
+  {
+    "file": "input/arrays/GSE63678_gene_expression.csv.gz",
+    "sha256": "73fec37e7fd06846b69967dc2455ca78e935f6a10f492f6998252afac176b83e",
+    "bytes": 2486366,
+    "stage": "author/GEO processed microarray matrix or parsed sample metadata"
+  },
+  {
+    "file": "input/arrays/GSE63678_sample_metadata.csv",
+    "sha256": "a81f9c31118e74ae9686fc92256dbc77a19477b5960f86541ddc0aa7bb615079",
+    "bytes": 38100,
+    "stage": "author/GEO processed microarray matrix or parsed sample metadata"
+  },
+  {
+    "file": "input/adjudicated_panel.json",
+    "sha256": "17d9836403cb097d004120141f61f546ad164edc0dc274d87210371dda069bb5",
+    "bytes": 59876,
+    "stage": "frozen source-to-human orthology sensitivity annotation"
+  },
+  {
+    "file": "input/hgnc.txt",
+    "sha256": "64fcdfcdf9bc0853ec502e0e4c7d6eb12647b2ca8b0e635ea04bdb584856baf7",
+    "bytes": 16973159,
+    "stage": "frozen HGNC symbol and coding-gene annotation"
+  },
+  {
+    "file": "input/cells/plan.json",
+    "sha256": "cd54be3a7946593f2415188671fe923efdfc5325b385bf210a76d6ae6bad93b4",
+    "bytes": 6238,
+    "stage": "frozen signed scores and generic programs"
+  },
+  {
+    "file": "input/cells/samples.json",
+    "sha256": "46e1be2eb2e352fcc8558587cc6d9387494d6dd5b8b2465e3326571bbd2fa3ac",
+    "bytes": 4215,
+    "stage": "GEO sample registry; only whole-cell donors inferential"
+  },
+  {
+    "file": "input/cells/GSM5276933/raw_pseudobulk.csv.gz",
+    "sha256": "d86fa695a6fecd8c7d07019f91b4526da5320032ca99cabb8fdb9e18bcfe93a6",
+    "bytes": 297841,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276933/corrected_pseudobulk.csv.gz",
+    "sha256": "afd4029e62f9e19435c557f7365bc31c6bab3c10ae4eb919754a72b401f9a788",
+    "bytes": 1005710,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276933/患者谱系细胞数.csv",
+    "sha256": "aa15890921f25d5c5b5f650a4c375c0aebd4da7b1f591c521bf1af5749ad798f",
+    "bytes": 177,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276933/QC汇总.csv",
+    "sha256": "5d7bdc04a68bf364f6bfb6e30352f04b54d300dd6cef993aa1492217db7eda34",
+    "bytes": 197,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276933/QC阈值.csv",
+    "sha256": "b7d0e770d19aa363dbb1d9a3ebbf6ae0ed1506eba123c58a42d991b316b20cf0",
+    "bytes": 336,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276933/注释证据.csv",
+    "sha256": "c7da707cb7a36dd5fdbb90e5b341e498e7f2f866727c36e4d0909301bfe23260",
+    "bytes": 1824,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276933/annotation_complete.json",
+    "sha256": "d0a4118154b731d75eeb98e71a33e04f7e116a873df28fe9832df5eef374f8af",
+    "bytes": 497,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276934/raw_pseudobulk.csv.gz",
+    "sha256": "48e8ec0a66183c549b847ae0cfae7276b3fce0e6dd92f5e7830a80eab8cb1382",
+    "bytes": 316450,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276934/corrected_pseudobulk.csv.gz",
+    "sha256": "edc8d142ad839680b7409b5276c10d52e0886fc1c45408d54aeea01698e2ac33",
+    "bytes": 1117089,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276934/患者谱系细胞数.csv",
+    "sha256": "f9eb4155528c11361c7516484985ef5a4b1f984cca6086520c8722fb4c8a42db",
+    "bytes": 204,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276934/QC汇总.csv",
+    "sha256": "7cd91ee047bc93ac1e7ca36e39003afd621bc524053d5b24fff66a9156e9bbd2",
+    "bytes": 199,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276934/QC阈值.csv",
+    "sha256": "d3b4cae016489c71ab7a1442845716c4b391bc7ec4d0ba6df53afbf19bbc81b8",
+    "bytes": 336,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276934/注释证据.csv",
+    "sha256": "75823b840b835125f484916d88e98520a70418d34eeaa57362a9c4883cf26722",
+    "bytes": 2033,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276934/annotation_complete.json",
+    "sha256": "1b466b69b04f41edf36f6ae82ff7d8c37c51d7a39276c92ec2541ac14e2d0c79",
+    "bytes": 517,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276935/raw_pseudobulk.csv.gz",
+    "sha256": "85c3f67b69ac105ffd2f63cbec4705afbb4dfe77088d849802cddb62a39d1c21",
+    "bytes": 290664,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276935/corrected_pseudobulk.csv.gz",
+    "sha256": "6712ced5528eb3d801fad5a0b26798042c890c35717ff81894707e0d27b79691",
+    "bytes": 964860,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276935/患者谱系细胞数.csv",
+    "sha256": "7b02efb56a322cd032c5d988fde6ca7c12878c25ccfad770140159fd3bc30588",
+    "bytes": 170,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276935/QC汇总.csv",
+    "sha256": "3c7b38decc7a1d7a14ea4a16b58623f7306ea680d7f1da1ca010f838d4e03500",
+    "bytes": 198,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276935/QC阈值.csv",
+    "sha256": "4e0efbc4bc44c6b61bd1464c632fdce4647044523f00ec2da974a8a8e50dd07a",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276935/注释证据.csv",
+    "sha256": "15e57e4df9415ccedd2b63de44e7603f6281258a55a1d3d5f61e70b7a82bb72d",
+    "bytes": 2194,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276935/annotation_complete.json",
+    "sha256": "a25ea9999dc46b1097381f3c85e5452356e0092f003a93f3037e7bd15fc5ab28",
+    "bytes": 490,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276936/raw_pseudobulk.csv.gz",
+    "sha256": "7676ab3873ba30e9c3a9576acd360ccf15eaf1aeb56447f57ccbabcc7ec42cf2",
+    "bytes": 312317,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276936/corrected_pseudobulk.csv.gz",
+    "sha256": "49b5e068181c435e0491e66e09f50cbaf421874fe7ed89327d0a07b758ef5859",
+    "bytes": 1078854,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276936/患者谱系细胞数.csv",
+    "sha256": "6e61e67f9ef906d188310780b064efb029e96d60921b99f4dc54fa6acf18b677",
+    "bytes": 202,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276936/QC汇总.csv",
+    "sha256": "b880660ccb7c5643de254e498be485050a5039a0ffdc1857ac51e35d01b91cad",
+    "bytes": 198,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276936/QC阈值.csv",
+    "sha256": "acdaf74c156832571234073d8b6d59e2771f6a46a9bcdc23aff00d143c9381a2",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276936/注释证据.csv",
+    "sha256": "058e61819ca737b1cdffdb9e7a37f9fa1c9521fb763dcd87581601a976c044d7",
+    "bytes": 2516,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276936/annotation_complete.json",
+    "sha256": "584b655e13dfc9a6e9cccbabd2cfe0db9abc533b667016e5f4d4ed69194c810a",
+    "bytes": 515,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276937/raw_pseudobulk.csv.gz",
+    "sha256": "adf50b0ac1bea26ba48470758998c05c701226f911a00772edc109d471b64b60",
+    "bytes": 326640,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276937/corrected_pseudobulk.csv.gz",
+    "sha256": "a14910581bb6b9a4b9b137cb3858e5f6941955653465ef4e48a7a5ceefdfa19e",
+    "bytes": 1189217,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276937/患者谱系细胞数.csv",
+    "sha256": "8f0a0466834c638fab44fdaaf7e1f4a24b02782526f333eff5c67470c1023df4",
+    "bytes": 204,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276937/QC汇总.csv",
+    "sha256": "751b557fb733f3fc91f2b20f035b1c825bc6f034f3a23680ade7d5ad71538f4e",
+    "bytes": 198,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276937/QC阈值.csv",
+    "sha256": "4494163c8c82d8d526e75a5786ef0dcc30099ddd284de52a9523cd8a3b2464a3",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276937/注释证据.csv",
+    "sha256": "94bcc45f318f0060e3b51458e55eb0540c6d08662175956049e9637c01311f89",
+    "bytes": 2430,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM5276937/annotation_complete.json",
+    "sha256": "1615f0c549d35eb6b3d4a7cc10d7f243fbb6abd33314c15a136d924ecfc4a54e",
+    "bytes": 517,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556535/raw_pseudobulk.csv.gz",
+    "sha256": "8cfa0209ed9f1e971884728a99371c7b64b59e89314fab9e82c0b545c66b6c9d",
+    "bytes": 351986,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556535/corrected_pseudobulk.csv.gz",
+    "sha256": "6a6a444943501ff224e1a2e1ce3d12cc421df93f3d110425d599fecb27803257",
+    "bytes": 1281854,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556535/患者谱系细胞数.csv",
+    "sha256": "0123b059e8808dab6579383ec15b98c130c927d01a4eea45caa62ec8d0f8760e",
+    "bytes": 203,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556535/QC汇总.csv",
+    "sha256": "08f81984cfde8acac091511400cc9741eff5c876cc83d80386d2bcd47d758958",
+    "bytes": 200,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556535/QC阈值.csv",
+    "sha256": "efd7e7db6ce6d2dcb1d4d2a66378decf4ba5fe6f227b153d50be6b2dde81f429",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556535/注释证据.csv",
+    "sha256": "0ea6d573e09af3256b9e423ad0b7286c6d163ac2846d972a9be2f085063f0059",
+    "bytes": 2664,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556535/annotation_complete.json",
+    "sha256": "0fa065ed936ca5b2c0df0ab52f7fe75707cf475da26925059cdda3692bda79e6",
+    "bytes": 516,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556536/raw_pseudobulk.csv.gz",
+    "sha256": "3fe99dcedf388c19d3edfae66b1dd7268e74c5c32a1216d0a93d964ce46bd661",
+    "bytes": 300075,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556536/corrected_pseudobulk.csv.gz",
+    "sha256": "2c47757854778ebefbfa737b6b4c42b15200df207f3d54ca4061e6ff691dc706",
+    "bytes": 979897,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556536/患者谱系细胞数.csv",
+    "sha256": "2cf8cdd358ce25c7bfd0226c33c96b78f34ea5932885d393ca733279429f974e",
+    "bytes": 142,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556536/QC汇总.csv",
+    "sha256": "f80534d7259de3c4cb76676fe62085773f32de58f8b60e0d8f6f56a4ce915417",
+    "bytes": 200,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556536/QC阈值.csv",
+    "sha256": "fc09f00d866d4570005f9e5d11b828e53d4d2c5eeebf552cb69dbe8da0bf5a6c",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556536/注释证据.csv",
+    "sha256": "85a7ef8ce5a2994cd2fa55614fd9ad90cdb423cb2cde39da8121ce4960a619e6",
+    "bytes": 2095,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556536/annotation_complete.json",
+    "sha256": "79877b06515c1690e230e757b9723d1a2f67a97beff2e7a26ae2bc23b9ebd7ed",
+    "bytes": 469,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556537/raw_pseudobulk.csv.gz",
+    "sha256": "1190570b43ba53f70fb7bd4ae1bdd622df29edc0f92a75d31b0257c195590281",
+    "bytes": 229509,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556537/corrected_pseudobulk.csv.gz",
+    "sha256": "ca1f2b5e0622702656cc41255dba91aebac79d75c8d1977456f129d30f4638be",
+    "bytes": 604808,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556537/患者谱系细胞数.csv",
+    "sha256": "9ba4576ac6e5cd4035252fbd2dfadbdcd0fc167bd9b0b00cd1877c3d4258b4df",
+    "bytes": 85,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556537/QC汇总.csv",
+    "sha256": "9b333d5dca93308de9a48a6f4f4356953ef114cb530b479de1f5b7c2e81c6add",
+    "bytes": 196,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556537/QC阈值.csv",
+    "sha256": "23c47788b057e08523a35185cd3d622b79eb5a13347d1fc50b580e498ba60aaa",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556537/注释证据.csv",
+    "sha256": "caeb5fd14d1003076a0fe53233a959e957bb7b8b1717953872cb48af05d4d137",
+    "bytes": 1826,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556537/annotation_complete.json",
+    "sha256": "b1b680b17702dc375148fec6f33e164eb9027b5f0c4e456f72cb82214e6aa47a",
+    "bytes": 426,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556538/raw_pseudobulk.csv.gz",
+    "sha256": "771b0ed0db9326aaec9371ef55ae98af04315b961e119ebf4799ef84e6fec6f9",
+    "bytes": 301015,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556538/corrected_pseudobulk.csv.gz",
+    "sha256": "13483be0949c4aee689deb14155bcaad29daaf2dc32d264e9a7923032240e387",
+    "bytes": 1093669,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556538/患者谱系细胞数.csv",
+    "sha256": "ce1b45a64e7c63b5513c8822bb151deb1daf79f4431749cc67f9d4caae883310",
+    "bytes": 176,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556538/QC汇总.csv",
+    "sha256": "b879e8b7197588ecc4f3a3611921090f234388699eb094f563860d143e6bd0e1",
+    "bytes": 195,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556538/QC阈值.csv",
+    "sha256": "6ac180439c38e936473b14455358f1de3fd7e16a83d9eeb02b8910a7d38434f0",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556538/注释证据.csv",
+    "sha256": "bdb7a17d1ebb3611c4631843f87e77951d6ef7382e4401f056f20d8f58e170c5",
+    "bytes": 1904,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556538/annotation_complete.json",
+    "sha256": "01588722f4ba86549ab3b926737b12cc019f37575655d6913260a9db360cec1d",
+    "bytes": 496,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556539/raw_pseudobulk.csv.gz",
+    "sha256": "4679074871e43ec182993ebce7b6fa9c519bcb85c80c4f7e8948f96381213abb",
+    "bytes": 270031,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556539/corrected_pseudobulk.csv.gz",
+    "sha256": "8486eace707ef23dfabf01afd1c1b1b427b6a47cb121d7bc6a9094cd2ba2c38f",
+    "bytes": 866248,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556539/患者谱系细胞数.csv",
+    "sha256": "db7759a55e6cd710d85d0b3db27b74eb5964eaf39e4ea0fd6dd605f95e1d2cc4",
+    "bytes": 144,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556539/QC汇总.csv",
+    "sha256": "c6d473375fcd09697ef63a93790a349fdb6121934512cac6357c833d37661a1b",
+    "bytes": 196,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556539/QC阈值.csv",
+    "sha256": "76b7b43e4f73fae56ff16e7bf3a4fbe99f0c4247a9a85c9b590c9ad71b7f5185",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556539/注释证据.csv",
+    "sha256": "ceb2252898f97f51096a2f0424b4e5c6d7cd1af1ad22557e61e2dd36891b24b4",
+    "bytes": 1806,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556539/annotation_complete.json",
+    "sha256": "9c52abe7b34d884013036c1ee15004f4e7614ec25b4a44381a322d92a4277e3f",
+    "bytes": 471,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556540/raw_pseudobulk.csv.gz",
+    "sha256": "0c3526b15378f3c9772facda9598528b312c3dc33da2b7e04f74f14954c51df9",
+    "bytes": 330057,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556540/corrected_pseudobulk.csv.gz",
+    "sha256": "9d7f45f31303c008d938587f736d7bce6a168589139b51e9d11babd9bf4def82",
+    "bytes": 1257240,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556540/患者谱系细胞数.csv",
+    "sha256": "5ca69d66a41ed88fea47cffa579fd9607042a510b08626696a2641125eb413d1",
+    "bytes": 204,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556540/QC汇总.csv",
+    "sha256": "adeb885c001510498108884771f5b51887a19998e1485b64cb6ba4483f387394",
+    "bytes": 197,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556540/QC阈值.csv",
+    "sha256": "7ee07f512799eb47e64b9ef348bc71732c4373f49f0f819333115781ffd8f9c1",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556540/注释证据.csv",
+    "sha256": "6a6ee3805cf26da60112c0c0ab14f66f0c7c3005c24994a7016d5c1fb511381c",
+    "bytes": 1886,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556540/annotation_complete.json",
+    "sha256": "c1f78249a2fdd812f25bdb197ba18e473daec306cbe2ff89dc77e8e294c5d1dd",
+    "bytes": 517,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556541/raw_pseudobulk.csv.gz",
+    "sha256": "8ccf505e51d249d15dd9ca0cb636bcb6a1ee86ba2448eab798a3a993a352253f",
+    "bytes": 306401,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556541/corrected_pseudobulk.csv.gz",
+    "sha256": "198f9b93ac96c1e4a07763b7ef8f3c0b65b37148f28fc2f9c95bce0f07409ee7",
+    "bytes": 1101586,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556541/患者谱系细胞数.csv",
+    "sha256": "06d24b6f4bb7efe5397fb7ef9eccbcba16d5a86700e7593594f35a72eafa7d2a",
+    "bytes": 177,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556541/QC汇总.csv",
+    "sha256": "7a49a73417d4dbddcc6729ef80f69b78e72adcfe8755d086bd6d22a6bc1ec1d0",
+    "bytes": 197,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556541/QC阈值.csv",
+    "sha256": "7980096eec8da492b6c38e462f58d14a5aff054562cbdad1cc05b1a79c4f7150",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556541/注释证据.csv",
+    "sha256": "dab6aa35d190f8c6ed57344c4988a2007aa8c42df4c0090e37ccf8ad0e9e1ae8",
+    "bytes": 2731,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556541/annotation_complete.json",
+    "sha256": "fc67edd68113e9841c2a34764c0e6d24e4c06e17e87dc5626ec064f2b90883f5",
+    "bytes": 497,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556542/raw_pseudobulk.csv.gz",
+    "sha256": "131e56ebc555c0ca981c262e20159a64456365d937fd42e56797ba8ac94caefc",
+    "bytes": 328120,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556542/corrected_pseudobulk.csv.gz",
+    "sha256": "63266bf66530a66bc0d5b5258f841a01f0a19a590b72bf0c1e464d11eaf866a3",
+    "bytes": 1141549,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556542/患者谱系细胞数.csv",
+    "sha256": "e5f4e7ec14d6a6e0cba28fa6d5c73065968e324de5c27d37cc242ba30ea5af33",
+    "bytes": 175,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556542/QC汇总.csv",
+    "sha256": "da329bd0dc9ded9f3fd2075a34fee5ca652f6a634e93e8b825a89960ec30310d",
+    "bytes": 197,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556542/QC阈值.csv",
+    "sha256": "a561149f03da56c53e1be059b007edcd180f0358ee642cc5c5f4d93cd7f03f1c",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556542/注释证据.csv",
+    "sha256": "23a1fce1730a69b9311e545aee0a9ff1c72d40f00b0283ac4b6eba4a8a925b52",
+    "bytes": 2142,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556542/annotation_complete.json",
+    "sha256": "b0824c63316dbfd2c4b943bf29ee9f422fa6d39b31d2af27fcd7b42d3b76ffe3",
+    "bytes": 495,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556543/raw_pseudobulk.csv.gz",
+    "sha256": "563abcb3e1fc7f9a7831a2bba574e9aab2dced451d41a493cdc4fc58891a4099",
+    "bytes": 321542,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556543/corrected_pseudobulk.csv.gz",
+    "sha256": "24ab409203efb865841b3ab47414e283865a95e0a2db845f99f411fe63fa0dd3",
+    "bytes": 1075147,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556543/患者谱系细胞数.csv",
+    "sha256": "d2fb26c444a4cda0018ed5c5560dd3d93d80870ef07fd36b21fbce8e1660ec54",
+    "bytes": 148,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556543/QC汇总.csv",
+    "sha256": "2567a7bcb5cfaf3d76bcfeb997260d6ede441095aac9dcc953dc938afb735363",
+    "bytes": 201,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556543/QC阈值.csv",
+    "sha256": "e83a586727a0dc385561376275166841c5705355c2a917ed8b74b58f5ca14499",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556543/注释证据.csv",
+    "sha256": "89a040de848a1f5f692a36cb3cc63e06fd9cbd06dc800464e0c2cb608eec0d24",
+    "bytes": 2294,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556543/annotation_complete.json",
+    "sha256": "f81136b70b41f071f3b8a8dce9f9edcdb28684ceb52abd41b63d753486afcaf4",
+    "bytes": 475,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556544/raw_pseudobulk.csv.gz",
+    "sha256": "598b21663f0bd9224caeaed5c8cbf8de59c15f3fab0bdbb53acc1839b664989c",
+    "bytes": 280469,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556544/corrected_pseudobulk.csv.gz",
+    "sha256": "72ca88028ce1ec07cb20eca59ccfe144a73bf8eddd065c3ff453ede75e150b00",
+    "bytes": 854967,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556544/患者谱系细胞数.csv",
+    "sha256": "5b254711d2a19d3b97bb40286d2f134cdd0d04fe68bd30361dec8e9b81a2f55a",
+    "bytes": 115,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556544/QC汇总.csv",
+    "sha256": "7a9d064595d611ce230d7102968df8b17f294a626231f2808867a5e8470055ea",
+    "bytes": 201,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556544/QC阈值.csv",
+    "sha256": "0674e57bde5b234ed627cb20432cea7bdb8a93ce83ed2dd3bf202956f0f88c6b",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556544/注释证据.csv",
+    "sha256": "6256ce92bb48f0f7b47bf3564becdddca3e6bfe36c7181b04009e1aa6c4296c9",
+    "bytes": 1765,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556544/annotation_complete.json",
+    "sha256": "044b2354433abe9e78b013d86a3b90d4f4c19ecd20a336f315db5cf5dfcdc0ff",
+    "bytes": 449,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556545/raw_pseudobulk.csv.gz",
+    "sha256": "d1b69a9d86a17fdc6576adcd7baa9d3dce8e6f5e6ab5dbdf67988497f5fb8b00",
+    "bytes": 309678,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556545/corrected_pseudobulk.csv.gz",
+    "sha256": "db02996f5b80f752c53900d1f7ba615ecec9114774d9c54303e6daabe43d7c12",
+    "bytes": 1018400,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556545/患者谱系细胞数.csv",
+    "sha256": "935e9cac1d640b70ab7465a274df68e9efb317d14396ccdb2dda30af1317191b",
+    "bytes": 145,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556545/QC汇总.csv",
+    "sha256": "e6116442171dcd39547ad7e09a4192874dadfd54e0160505f9b71a6a6ce66ba7",
+    "bytes": 200,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556545/QC阈值.csv",
+    "sha256": "8bee22d7a4cbe7168d54e53aec31300556891515a79078215b346a0bf65034d1",
+    "bytes": 322,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556545/注释证据.csv",
+    "sha256": "38b90721e57e69fae20d3b968774163ee27fc0dfcd3c58e787ac1a5be00ad41c",
+    "bytes": 2019,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "input/cells/GSM8556545/annotation_complete.json",
+    "sha256": "d014919483e5343af61537e362c3cff06ad4096a551e30c4b11bdab43d150ca1",
+    "bytes": 472,
+    "stage": "processed cell-lineage counts or recorded upstream QC/annotation evidence; no raw-cell reprocessing claim"
+  },
+  {
+    "file": "upstream_reference/sc_qc_process.R",
+    "sha256": "150cb90e16c734a78550d18cf5035580f0f4af1a6f12ccc3544d7a478061733d",
+    "bytes": 6009,
+    "stage": "original upstream source for audit; not run by processed-matrix entry"
+  },
+  {
+    "file": "upstream_reference/annotate_pseudobulk.R",
+    "sha256": "6da519a9ffa94c457956128beb774993eb338448d5e732ef7708d72fe34a8d73",
+    "bytes": 6839,
+    "stage": "original upstream source for audit; not run by processed-matrix entry"
+  },
+  {
+    "file": "input/rppa/ucec_pan_rsem.tsv.gz",
+    "sha256": "9ce19ececb2ef0525d26fac4dfc31891d22ca3eaca50ded851bfe9eb372ed5a5",
+    "bytes": 62157221,
+    "stage": "deposited batch-normalized TCGA RNA, losslessly gzip-compressed"
+  },
+  {
+    "file": "input/rppa/TCPA_TCGA_RPPA500.zip",
+    "sha256": "787600590f0c08d7227ddae20c45747b29c3f91dfe50c70aa5dcebce65a1c435",
+    "bytes": 14307233,
+    "stage": "publisher antibody annotation or TCPA deposited RPPA measurements"
+  },
+  {
+    "file": "input/rppa/RPPA500_supplementary_tables.xlsx",
+    "sha256": "734d1303264ed2d9b0a443fc3a62e5bafc12eb6cb878ce6c3c85f697783abaec",
+    "bytes": 59054,
+    "stage": "publisher antibody annotation or TCPA deposited RPPA measurements"
+  },
+  {
+    "file": "input/clinical/external_survival_endpoint_audit.csv",
+    "sha256": "039bfc8d5bb275ccbd1472a4ea90ba52f45291dcaee1df919ca6eff131d92e1f",
+    "bytes": 13783,
+    "stage": "adjudicated individual clinical endpoint, exploratory external cohort"
+  }
+]

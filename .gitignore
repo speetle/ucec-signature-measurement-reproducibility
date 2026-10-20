@@ -1,0 +1,8 @@
+results/
+input/external/
+input/external_source/
+input/rppa/TCPA_TCGA_RPPA500.zip
+input/rppa/RPPA500_supplementary_tables.xlsx
+__pycache__/
+*.pyc
+.DS_Store

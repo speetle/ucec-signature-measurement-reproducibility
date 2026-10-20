@@ -1,0 +1,3 @@
+cohort,sets,positive,negative,median_delta,low,high,interpretation
+discovery95,31,23,8,0.0172732362821947,0.005138161008610015,0.0367876555238238,"Fixed shared eligible scope; conditional protein-scale intervals, overlapping sets not independent"
+external138,31,20,11,0.0140551475037045,-0.00036173951216474743,0.03106697781898975,"Fixed shared eligible scope; conditional protein-scale intervals, overlapping sets not independent"

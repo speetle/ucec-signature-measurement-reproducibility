@@ -1,0 +1,26 @@
+[
+  {
+    "file": "RNA.cct",
+    "url": "https://www.linkedomics.org/data_download/CPTAC-UCEC-independent/UCEC_confirmatory_RNAseq_gene_RSEM_removed_circRNA_UQ_log2%28x%2B1%29_tumor_normal_v3.0.cct",
+    "bytes": 21359147,
+    "sha256": "875cae5bfecafc3a816cc37335b73755d7145527e9fffe97834f8360e14f3c85",
+    "status": "retrieved",
+    "access_date": "2026-10-18"
+  },
+  {
+    "file": "protein.cct",
+    "url": "https://www.linkedomics.org/data_download/CPTAC-UCEC-independent/UCEC_confirmatory_proteomics_ratio_median_polishing_log2_tumor_normal_v3.0.cct",
+    "bytes": 11001073,
+    "sha256": "23147a545ba8629d5fd29103f072af3e1f792ae7cea1d4b968d496751492def9",
+    "status": "retrieved",
+    "access_date": "2026-10-18"
+  },
+  {
+    "file": "metadata.xlsx",
+    "url": "https://www.linkedomics.org/data_download/CPTAC-UCEC-independent/UCEC_confirmatory_meta_table_v3.0.xlsx",
+    "bytes": 262253,
+    "sha256": "a66d57fbdb3b161c1e372fff639b73654364065d846916ea69dc74c19ddb693c",
+    "status": "retrieved",
+    "access_date": "2026-10-18"
+  }
+]

@@ -1,0 +1,2 @@
+"sample","dataset","min_genes","min_UMI","max_MT","rationale"
+"GSM5276934","GSE173682",331,500,21.1531414904957,"Three-MAD lower tails with floors; whole-cell mitochondrial upper at least20%, nucleus at least10%; retained higher thresholds when robust distribution warrants. No hard upper UMI/gene removal; doublets called separately."

@@ -1,0 +1,20 @@
+{
+  "heads": 90,
+  "keys": [
+    "Aligned",
+    "Date",
+    "FileVersion",
+    "ID",
+    "Plate_ID",
+    "Raw",
+    "SeqSetId",
+    "SoftwareVersion",
+    "Stitched",
+    "Trimmed",
+    "Well",
+    "rtsQ30",
+    "umiQ30"
+  ],
+  "numeric_area_nuclei_or_tissue_coordinates_found": false,
+  "notes": "Plate_ID/Well are collection identifiers; not slide identity or tissue coordinates. TMA core size cannot replace AOI area."
+}

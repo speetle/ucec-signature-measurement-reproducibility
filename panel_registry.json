@@ -1,0 +1,217 @@
+{
+  "Figure1a": {
+    "input_level": "processed RNA/protein and fixed signed membership",
+    "statistical_entry": [
+      "recompute_primary.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure1b": {
+    "input_level": "processed RNA/protein and fixed signed membership",
+    "statistical_entry": [
+      "recompute_primary.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure1c": {
+    "input_level": "processed RNA/protein and fixed signed membership",
+    "statistical_entry": [
+      "recompute_primary.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure1d": {
+    "input_level": "processed RNA/protein and fixed signed membership",
+    "statistical_entry": [
+      "recompute_primary.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure1e": {
+    "input_level": "processed RNA/protein and fixed signed membership",
+    "statistical_entry": [
+      "recompute_primary.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure1f": {
+    "input_level": "processed RNA/protein and fixed signed membership",
+    "statistical_entry": [
+      "recompute_primary.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure2a": {
+    "input_level": "processed matrices and original batches",
+    "statistical_entry": [
+      "run_null.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure2c": {
+    "input_level": "processed matrices and original batches",
+    "statistical_entry": [
+      "run_null.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure2d": {
+    "input_level": "processed matrices and original batches",
+    "statistical_entry": [
+      "run_null.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure2b": {
+    "input_level": "discovery-only matching features and processed matrices",
+    "statistical_entry": [
+      "run_null.py",
+      "run_coexpression_null.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure2e": {
+    "input_level": "processed matrices",
+    "statistical_entry": [
+      "run_jackknife.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure2f": {
+    "input_level": "processed matrices and declared assumed ranges",
+    "statistical_entry": [
+      "run_missingness_bounds.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure3a": {
+    "input_level": "processed matrices and Hallmark membership",
+    "statistical_entry": [
+      "run_ms_benchmarks.py",
+      "verify_ms_points.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure3b": {
+    "input_level": "processed matrices and Hallmark membership",
+    "statistical_entry": [
+      "run_ms_benchmarks.py",
+      "verify_ms_points.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure3c": {
+    "input_level": "processed matrices and Hallmark membership",
+    "statistical_entry": [
+      "run_ms_benchmarks.py",
+      "verify_ms_points.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure3f": {
+    "input_level": "processed matrices and Hallmark membership",
+    "statistical_entry": [
+      "run_ms_benchmarks.py",
+      "verify_ms_points.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure3d": {
+    "input_level": "publisher RNA/RPPA/antibody inputs",
+    "statistical_entry": [
+      "run_rppa.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure3e": {
+    "input_level": "publisher RNA/RPPA/antibody inputs",
+    "statistical_entry": [
+      "run_rppa.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure4a": {
+    "input_level": "processed RNA and frozen measurement definitions",
+    "statistical_entry": [
+      "run_masks.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure4b": {
+    "input_level": "processed RNA and frozen measurement definitions",
+    "statistical_entry": [
+      "run_masks.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure4c": {
+    "input_level": "processed RNA and frozen measurement definitions",
+    "statistical_entry": [
+      "run_masks.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure4d": {
+    "input_level": "processed RNA and frozen measurement definitions",
+    "statistical_entry": [
+      "run_masks.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure4e": {
+    "input_level": "mapped array gene matrix and sample metadata",
+    "statistical_entry": [
+      "run_arrays.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure4f": {
+    "input_level": "mapped array gene matrix and sample metadata",
+    "statistical_entry": [
+      "run_arrays.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure5a": {
+    "input_level": "processed RNA and complete-case covariate design",
+    "statistical_entry": [
+      "run_heldout.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure5b": {
+    "input_level": "gene-by-lineage count aggregates; upstream QC not rerun",
+    "statistical_entry": [
+      "run_cells.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure5c": {
+    "input_level": "gene-by-lineage count aggregates; upstream QC not rerun",
+    "statistical_entry": [
+      "run_cells.py"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure5d": {
+    "input_level": "adjudicated individual clinical inputs",
+    "statistical_entry": [
+      "associations.R"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure5e": {
+    "input_level": "adjudicated TCGA individual inputs",
+    "statistical_entry": [
+      "clinical_increment.R"
+    ],
+    "raw_assay_reprocessing": false
+  },
+  "Figure5f": {
+    "input_level": "adjudicated TCGA individual inputs",
+    "statistical_entry": [
+      "clinical_increment.R"
+    ],
+    "raw_assay_reprocessing": false
+  }
+}

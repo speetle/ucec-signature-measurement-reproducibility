@@ -1,0 +1,7 @@
+"model","metric","apparent","corrected","successful_draws"
+"clinical_molecular","C_index",0.782671494832777,0.760618990812548,500
+"clinical_molecular","Brier36",0.109846019279049,0.116420656043277,500
+"clinical_molecular","calibration_slope",1.02509672972422,0.887743425610258,500
+"plus_source48","C_index",0.779152087232484,0.754619921564871,500
+"plus_source48","Brier36",0.109700435018142,0.117158399232567,500
+"plus_source48","calibration_slope",1.0253899333197,0.871794965709588,500

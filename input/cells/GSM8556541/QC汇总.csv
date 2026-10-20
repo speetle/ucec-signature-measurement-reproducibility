@@ -1,0 +1,2 @@
+"sample","dataset","raw","standard_QC","doublets","singlets","median_contamination","fraction_contamination_gt_0.5"
+"GSM8556541","GSE278879",4866,4845,381,4464,0.193336865804618,0.0752688172043011

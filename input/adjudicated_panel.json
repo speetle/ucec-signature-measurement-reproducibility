@@ -1,0 +1,2044 @@
+{
+  "audit_date": "2026-10-18",
+  "Ensembl_release": 116,
+  "source53_count": 53,
+  "current_primary_panel_count": 51,
+  "current_primary_up": 35,
+  "current_primary_down": 16,
+  "historical48_all_supported": true,
+  "rules": [
+    "Input candidate universe remains the 53 source genes meeting the frozen formal-response criteria; no human outcome or protein correlation informs mapping.",
+    "Recover the exact versioned mouse Ensembl gene ID from original GSE235046 count-table geneID; all 101 source candidate symbols map to exactly one protein-coding source row.",
+    "Trim the source ID version only when querying Ensembl release 116, retain the original versioned ID in all provenance records.",
+    "Accept only homology edges whose data.id AND homology.source.id equal the recovered source stable ID; discard additional symbol/alias query hits for other source stable IDs.",
+    "Primary current-ID human panel requires a unique Ensembl ortholog_one2one edge to Homo sapiens and a matched official HGNC protein-coding target stable ID/symbol; never infer a target by uppercasing.",
+    "Preserve each source up/down direction without using recipient-cohort outcomes; keep the inherited fixed48 as the historical comparator.",
+    "Where an approved symbol has changed, use the verified target stable ID as the join key; document cohort-specific symbol aliases from official HGNC fields rather than opportunistic expression matches.",
+    "Exclude no-Ensembl-human-ortholog or non-protein-coding targets from the primary RNA-protein panel; report their distinct statuses without treating server error as absence.",
+    "MGI homology classes provide independent cross-resource corroboration, not a substitute for an Ensembl one-to-one assertion.",
+    "Current annotation audit does not reconstruct the historical orthology database release or undocumented historical cache-generation code."
+  ],
+  "source53": [
+    {
+      "mouse_symbol": "Loxl3",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000000693.10",
+      "mouse_stable_id": "ENSMUSG00000000693",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000115318"
+      ],
+      "human_symbols": [
+        "LOXL3"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000115318",
+          "symbol": "LOXL3",
+          "hgnc_id": "HGNC:13869",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "84695",
+          "previous_symbols": [],
+          "alias_symbols": []
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "LOXL3"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Loxl3.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Insig2",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000003721.14",
+      "mouse_stable_id": "ENSMUSG00000003721",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000125629"
+      ],
+      "human_symbols": [
+        "INSIG2"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000125629",
+          "symbol": "INSIG2",
+          "hgnc_id": "HGNC:20452",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "51141",
+          "previous_symbols": [],
+          "alias_symbols": []
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "INSIG2"
+      ],
+      "Ensembl_evidence_file": "raw/ENSMUSG00000003721_homology.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Ampd3",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000005686.17",
+      "mouse_stable_id": "ENSMUSG00000005686",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000133805"
+      ],
+      "human_symbols": [
+        "AMPD3"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000133805",
+          "symbol": "AMPD3",
+          "hgnc_id": "HGNC:470",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "272",
+          "previous_symbols": [],
+          "alias_symbols": []
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "AMPD3"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Ampd3.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Eps8",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000015766.14",
+      "mouse_stable_id": "ENSMUSG00000015766",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000151491"
+      ],
+      "human_symbols": [
+        "EPS8"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000151491",
+          "symbol": "EPS8",
+          "hgnc_id": "HGNC:3420",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "2059",
+          "previous_symbols": [],
+          "alias_symbols": []
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "EPS8"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Eps8.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Slc1a4",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000020142.12",
+      "mouse_stable_id": "ENSMUSG00000020142",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000115902"
+      ],
+      "human_symbols": [
+        "SLC1A4"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000115902",
+          "symbol": "SLC1A4",
+          "hgnc_id": "HGNC:10942",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "6509",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "SATT",
+            "ASCT1",
+            "ASCT-1"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "SLC1A4"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Slc1a4.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Txnrd1",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000020250.10",
+      "mouse_stable_id": "ENSMUSG00000020250",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000198431"
+      ],
+      "human_symbols": [
+        "TXNRD1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000198431",
+          "symbol": "TXNRD1",
+          "hgnc_id": "HGNC:12437",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "7296",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "TXNR",
+            "GRIM-12",
+            "Trxr1",
+            "TXNR1"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "TXNRD1"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Txnrd1.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Traf3",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000021277.16",
+      "mouse_stable_id": "ENSMUSG00000021277",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000131323"
+      ],
+      "human_symbols": [
+        "TRAF3"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000131323",
+          "symbol": "TRAF3",
+          "hgnc_id": "HGNC:12033",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "7187",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "CAP-1",
+            "CD40bp",
+            "CRAF1",
+            "LAP1",
+            "RNF118"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "TRAF3"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Traf3.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Samd8",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000021770.11",
+      "mouse_stable_id": "ENSMUSG00000021770",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000156671"
+      ],
+      "human_symbols": [
+        "SAMD8"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000156671",
+          "symbol": "SAMD8",
+          "hgnc_id": "HGNC:26320",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "142891",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "FLJ25082",
+            "SMSr"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "SAMD8"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Samd8.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Bmp1",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000022098.10",
+      "mouse_stable_id": "ENSMUSG00000022098",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000168487"
+      ],
+      "human_symbols": [
+        "BMP1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000168487",
+          "symbol": "BMP1",
+          "hgnc_id": "HGNC:1067",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "649",
+          "previous_symbols": [
+            "PCOLC"
+          ],
+          "alias_symbols": [
+            "BMP-1"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "BMP1"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Bmp1.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Ankrd33b",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000022237.17",
+      "mouse_stable_id": "ENSMUSG00000022237",
+      "direction": "up",
+      "historical48": false,
+      "human_stable_ids": [
+        "ENSG00000164236"
+      ],
+      "human_symbols": [
+        "ANKRD33B"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000164236",
+          "symbol": "ANKRD33B",
+          "hgnc_id": "HGNC:35240",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "651746",
+          "previous_symbols": [],
+          "alias_symbols": []
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "ANKRD33B"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Ankrd33b.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "1810013L24Rik",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000022507.6",
+      "mouse_stable_id": "ENSMUSG00000022507",
+      "direction": "up",
+      "historical48": false,
+      "human_stable_ids": [
+        "ENSG00000182831"
+      ],
+      "human_symbols": [
+        "HAPSTR1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000182831",
+          "symbol": "HAPSTR1",
+          "hgnc_id": "HGNC:30103",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "29035",
+          "previous_symbols": [
+            "C16orf72"
+          ],
+          "alias_symbols": [
+            "FLJ41272",
+            "PRO0149",
+            "TAPR1"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/1810013L24Rik.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Pkdcc",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000024247.14",
+      "mouse_stable_id": "ENSMUSG00000024247",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000162878"
+      ],
+      "human_symbols": [
+        "PKDCC"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000162878",
+          "symbol": "PKDCC",
+          "hgnc_id": "HGNC:25123",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "91461",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "SgK493",
+            "Vlk"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "PKDCC"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Pkdcc.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Afg3l2",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000024527.10",
+      "mouse_stable_id": "ENSMUSG00000024527",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000141385"
+      ],
+      "human_symbols": [
+        "AFG3L2"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000141385",
+          "symbol": "AFG3L2",
+          "hgnc_id": "HGNC:315",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "10939",
+          "previous_symbols": [
+            "SCA28"
+          ],
+          "alias_symbols": [
+            "SPAX5"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "AFG3L2"
+      ],
+      "Ensembl_evidence_file": "raw/ENSMUSG00000024527_homology.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Srfbp1",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000024528.8",
+      "mouse_stable_id": "ENSMUSG00000024528",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000151304"
+      ],
+      "human_symbols": [
+        "SRFBP1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000151304",
+          "symbol": "SRFBP1",
+          "hgnc_id": "HGNC:26333",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "153443",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "FLJ25286",
+            "p49",
+            "STRAP",
+            "BUD22",
+            "Rlb1"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "SRFBP1"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Srfbp1.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Nedd4l",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000024589.18",
+      "mouse_stable_id": "ENSMUSG00000024589",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000049759"
+      ],
+      "human_symbols": [
+        "NEDD4L"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000049759",
+          "symbol": "NEDD4L",
+          "hgnc_id": "HGNC:7728",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "23327",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "KIAA0439",
+            "RSP5",
+            "NEDD4-2"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "NEDD4L"
+      ],
+      "Ensembl_evidence_file": "raw/ENSMUSG00000024589_homology_alternate.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Aldh18a1",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000025007.13",
+      "mouse_stable_id": "ENSMUSG00000025007",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000059573"
+      ],
+      "human_symbols": [
+        "ALDH18A1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000059573",
+          "symbol": "ALDH18A1",
+          "hgnc_id": "HGNC:9722",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "5832",
+          "previous_symbols": [
+            "GSAS",
+            "PYCS",
+            "SPG9"
+          ],
+          "alias_symbols": [
+            "P5CS"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "ALDH18A1"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Aldh18a1.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Hspa4l",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000025757.12",
+      "mouse_stable_id": "ENSMUSG00000025757",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000164070"
+      ],
+      "human_symbols": [
+        "HSPA4L"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000164070",
+          "symbol": "HSPA4L",
+          "hgnc_id": "HGNC:17041",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "22824",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "APG-1",
+            "Osp94",
+            "HSPH3"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "HSPA4L"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Hspa4l.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Pdgfa",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000025856.15",
+      "mouse_stable_id": "ENSMUSG00000025856",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000197461"
+      ],
+      "human_symbols": [
+        "PDGFA"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000197461",
+          "symbol": "PDGFA",
+          "hgnc_id": "HGNC:8799",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "5154",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "PDGF1",
+            "PDGF-A"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "PDGFA"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Pdgfa.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Rhbdd1",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000026142.15",
+      "mouse_stable_id": "ENSMUSG00000026142",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000144468"
+      ],
+      "human_symbols": [
+        "RHBDD1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000144468",
+          "symbol": "RHBDD1",
+          "hgnc_id": "HGNC:23081",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "84236",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "DKFZp547E052",
+            "RHBDL4"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "RHBDD1"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Rhbdd1.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Optn",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000026672.11",
+      "mouse_stable_id": "ENSMUSG00000026672",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000123240"
+      ],
+      "human_symbols": [
+        "OPTN"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000123240",
+          "symbol": "OPTN",
+          "hgnc_id": "HGNC:17142",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "10133",
+          "previous_symbols": [
+            "GLC1E"
+          ],
+          "alias_symbols": [
+            "FIP2",
+            "HYPL",
+            "FIP-2",
+            "TFIIIA-INTP",
+            "NRP",
+            "HIP7"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "OPTN"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Optn.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Ccn1",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000028195.4",
+      "mouse_stable_id": "ENSMUSG00000028195",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000142871"
+      ],
+      "human_symbols": [
+        "CCN1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000142871",
+          "symbol": "CCN1",
+          "hgnc_id": "HGNC:2654",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "3491",
+          "previous_symbols": [
+            "IGFBP10",
+            "CYR61"
+          ],
+          "alias_symbols": [
+            "GIG1"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "CCN1"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Ccn1.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Kif24",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000028438.16",
+      "mouse_stable_id": "ENSMUSG00000028438",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000186638"
+      ],
+      "human_symbols": [
+        "KIF24"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000186638",
+          "symbol": "KIF24",
+          "hgnc_id": "HGNC:19916",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "347240",
+          "previous_symbols": [
+            "C9orf48"
+          ],
+          "alias_symbols": [
+            "bA571F15.4",
+            "FLJ10933",
+            "FLJ43884"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "KIF24"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Kif24.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Azin2",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000028789.16",
+      "mouse_stable_id": "ENSMUSG00000028789",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000142920"
+      ],
+      "human_symbols": [
+        "AZIN2"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000142920",
+          "symbol": "AZIN2",
+          "hgnc_id": "HGNC:29957",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "113451",
+          "previous_symbols": [
+            "ADC"
+          ],
+          "alias_symbols": [
+            "ODC-p",
+            "ODC1L",
+            "KIAA1945",
+            "ODCp"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "AZIN2"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Azin2.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Yars",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000028811.11",
+      "mouse_stable_id": "ENSMUSG00000028811",
+      "direction": "up",
+      "historical48": false,
+      "human_stable_ids": [
+        "ENSG00000134684"
+      ],
+      "human_symbols": [
+        "YARS1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000134684",
+          "symbol": "YARS1",
+          "hgnc_id": "HGNC:12840",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "8565",
+          "previous_symbols": [
+            "YARS"
+          ],
+          "alias_symbols": [
+            "YTS",
+            "YRS",
+            "tyrRS"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Yars.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Mxra8",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000029070.9",
+      "mouse_stable_id": "ENSMUSG00000029070",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000162576"
+      ],
+      "human_symbols": [
+        "MXRA8"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000162576",
+          "symbol": "MXRA8",
+          "hgnc_id": "HGNC:7542",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "54587",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "DKFZp586E2023"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "MXRA8"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Mxra8.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Pycard",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000030793.4",
+      "mouse_stable_id": "ENSMUSG00000030793",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000103490"
+      ],
+      "human_symbols": [
+        "PYCARD"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000103490",
+          "symbol": "PYCARD",
+          "hgnc_id": "HGNC:16608",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "29108",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "TMS-1",
+            "CARD5",
+            "ASC"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "PYCARD"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Pycard.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Lrrc58",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000034158.9",
+      "mouse_stable_id": "ENSMUSG00000034158",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000163428"
+      ],
+      "human_symbols": [
+        "LRRC58"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000163428",
+          "symbol": "LRRC58",
+          "hgnc_id": "HGNC:26968",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "116064",
+          "previous_symbols": [],
+          "alias_symbols": []
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "LRRC58"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Lrrc58.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Cep19",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000035790.15",
+      "mouse_stable_id": "ENSMUSG00000035790",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000174007"
+      ],
+      "human_symbols": [
+        "CEP19"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000174007",
+          "symbol": "CEP19",
+          "hgnc_id": "HGNC:28209",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "84984",
+          "previous_symbols": [
+            "C3orf34"
+          ],
+          "alias_symbols": [
+            "MGC14126"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "CEP19"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Cep19.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Pim3",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000035828.11",
+      "mouse_stable_id": "ENSMUSG00000035828",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000198355"
+      ],
+      "human_symbols": [
+        "PIM3"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000198355",
+          "symbol": "PIM3",
+          "hgnc_id": "HGNC:19310",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "415116",
+          "previous_symbols": [],
+          "alias_symbols": []
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "PIM3"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Pim3.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Rusc2",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000035969.15",
+      "mouse_stable_id": "ENSMUSG00000035969",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000198853"
+      ],
+      "human_symbols": [
+        "RUSC2"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000198853",
+          "symbol": "RUSC2",
+          "hgnc_id": "HGNC:23625",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "9853",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "KIAA0375"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "RUSC2"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Rusc2.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Ptpn23",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000036057.11",
+      "mouse_stable_id": "ENSMUSG00000036057",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000076201"
+      ],
+      "human_symbols": [
+        "PTPN23"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000076201",
+          "symbol": "PTPN23",
+          "hgnc_id": "HGNC:14406",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "25930",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "DKFZP564F0923",
+            "KIAA1471",
+            "HD-PTP"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "PTPN23"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Ptpn23.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Adamts2",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000036545.8",
+      "mouse_stable_id": "ENSMUSG00000036545",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000087116"
+      ],
+      "human_symbols": [
+        "ADAMTS2"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000087116",
+          "symbol": "ADAMTS2",
+          "hgnc_id": "HGNC:218",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "9509",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "ADAMTS-3",
+            "hPCPNI",
+            "PCINP",
+            "ADAM-TS2",
+            "NPI"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "ADAMTS2"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Adamts2.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Sh3tc1",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000036553.16",
+      "mouse_stable_id": "ENSMUSG00000036553",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000125089"
+      ],
+      "human_symbols": [
+        "SH3TC1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000125089",
+          "symbol": "SH3TC1",
+          "hgnc_id": "HGNC:26009",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "54436",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "FLJ20356"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "SH3TC1"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Sh3tc1.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Kif15",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000036768.6",
+      "mouse_stable_id": "ENSMUSG00000036768",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000163808"
+      ],
+      "human_symbols": [
+        "KIF15"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000163808",
+          "symbol": "KIF15",
+          "hgnc_id": "HGNC:17273",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "56992",
+          "previous_symbols": [
+            "KNSL7"
+          ],
+          "alias_symbols": [
+            "HKLP2",
+            "NY-BR-62"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "KIF15"
+      ],
+      "Ensembl_evidence_file": "raw/ENSMUSG00000036768_homology.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Ppfia1",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000037519.17",
+      "mouse_stable_id": "ENSMUSG00000037519",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000131626"
+      ],
+      "human_symbols": [
+        "PPFIA1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000131626",
+          "symbol": "PPFIA1",
+          "hgnc_id": "HGNC:9245",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "8500",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "LIP.1",
+            "LIPRIN"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "PPFIA1"
+      ],
+      "Ensembl_evidence_file": "raw/ENSMUSG00000037519_homology.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Fermt2",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000037712.16",
+      "mouse_stable_id": "ENSMUSG00000037712",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000073712"
+      ],
+      "human_symbols": [
+        "FERMT2"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000073712",
+          "symbol": "FERMT2",
+          "hgnc_id": "HGNC:15767",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "10979",
+          "previous_symbols": [
+            "PLEKHC1"
+          ],
+          "alias_symbols": [
+            "mig-2",
+            "KIND2",
+            "UNC112B"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "FERMT2"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Fermt2.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Dusp8",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000037887.11",
+      "mouse_stable_id": "ENSMUSG00000037887",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000184545"
+      ],
+      "human_symbols": [
+        "DUSP8"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000184545",
+          "symbol": "DUSP8",
+          "hgnc_id": "HGNC:3074",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "1850",
+          "previous_symbols": [
+            "C11orf81"
+          ],
+          "alias_symbols": [
+            "HVH-5",
+            "HB5",
+            "FLJ42958"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "DUSP8"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Dusp8.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Sema7a",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000038264.8",
+      "mouse_stable_id": "ENSMUSG00000038264",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000138623"
+      ],
+      "human_symbols": [
+        "SEMA7A"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000138623",
+          "symbol": "SEMA7A",
+          "hgnc_id": "HGNC:10741",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "8482",
+          "previous_symbols": [
+            "SEMAL"
+          ],
+          "alias_symbols": [
+            "H-Sema-L",
+            "CD108"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "SEMA7A"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Sema7a.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Ralgps1",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000038831.16",
+      "mouse_stable_id": "ENSMUSG00000038831",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000136828"
+      ],
+      "human_symbols": [
+        "RALGPS1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000136828",
+          "symbol": "RALGPS1",
+          "hgnc_id": "HGNC:16851",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "9649",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "RALGPS1A",
+            "RALGEF2",
+            "KIAA0351"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "RALGPS1"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Ralgps1.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Akna",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000039158.11",
+      "mouse_stable_id": "ENSMUSG00000039158",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000106948"
+      ],
+      "human_symbols": [
+        "AKNA"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000106948",
+          "symbol": "AKNA",
+          "hgnc_id": "HGNC:24108",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "80709",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "KIAA1968"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "AKNA"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Akna.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Osgin2",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000041153.9",
+      "mouse_stable_id": "ENSMUSG00000041153",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000164823"
+      ],
+      "human_symbols": [
+        "OSGIN2"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000164823",
+          "symbol": "OSGIN2",
+          "hgnc_id": "HGNC:1355",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "734",
+          "previous_symbols": [
+            "C8orf1"
+          ],
+          "alias_symbols": [
+            "hT41"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "OSGIN2"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Osgin2.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Slc7a1",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000041313.14",
+      "mouse_stable_id": "ENSMUSG00000041313",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000139514"
+      ],
+      "human_symbols": [
+        "SLC7A1"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000139514",
+          "symbol": "SLC7A1",
+          "hgnc_id": "HGNC:11057",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "6541",
+          "previous_symbols": [
+            "ERR",
+            "ATRC1"
+          ],
+          "alias_symbols": [
+            "CAT-1",
+            "HCAT1",
+            "REC1L"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "SLC7A1"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Slc7a1.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Znrf3",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000041961.14",
+      "mouse_stable_id": "ENSMUSG00000041961",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000183579"
+      ],
+      "human_symbols": [
+        "ZNRF3"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000183579",
+          "symbol": "ZNRF3",
+          "hgnc_id": "HGNC:18126",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "84133",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "KIAA1133",
+            "BK747E2.3",
+            "FLJ22057",
+            "RNF203"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "ZNRF3"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Znrf3.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Maff",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000042622.14",
+      "mouse_stable_id": "ENSMUSG00000042622",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000185022"
+      ],
+      "human_symbols": [
+        "MAFF"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000185022",
+          "symbol": "MAFF",
+          "hgnc_id": "HGNC:6780",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "23764",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "hMafF"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "MAFF"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Maff.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Tmem198b",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000047090.13",
+      "mouse_stable_id": "ENSMUSG00000047090",
+      "direction": "down",
+      "historical48": false,
+      "human_stable_ids": [],
+      "human_symbols": [],
+      "human_targets": [],
+      "Ensembl_orthology_type": "unable_to_confirm_by_Ensembl",
+      "MGI_human_symbols": [
+        "TMEM198B"
+      ],
+      "Ensembl_evidence_file": "",
+      "included_primary_current_panel": false,
+      "status": "no_Ensembl_human_ortholog_MGI_human_pseudogene_only",
+      "excluded_reason": "Ensembl116 returned an empty homology list; MGI human counterpart is HGNC-approved pseudogene, inappropriate for primary human protein score.",
+      "secondary_RNA_only_target": {
+        "symbol": "TMEM198B",
+        "stable_id": "ENSG00000182796",
+        "entrez_id": "440104",
+        "hgnc_id": "HGNC:43629",
+        "locus_group": "pseudogene"
+      }
+    },
+    {
+      "mouse_symbol": "Col6a3",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000048126.16",
+      "mouse_stable_id": "ENSMUSG00000048126",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000163359"
+      ],
+      "human_symbols": [
+        "COL6A3"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000163359",
+          "symbol": "COL6A3",
+          "hgnc_id": "HGNC:2213",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "1293",
+          "previous_symbols": [],
+          "alias_symbols": []
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "COL6A3"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Col6a3.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Mafg",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000051510.13",
+      "mouse_stable_id": "ENSMUSG00000051510",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000197063"
+      ],
+      "human_symbols": [
+        "MAFG"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000197063",
+          "symbol": "MAFG",
+          "hgnc_id": "HGNC:6781",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "4097",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "MGC13090",
+            "MGC20149"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "MAFG"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Mafg.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Palld",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000058056.16",
+      "mouse_stable_id": "ENSMUSG00000058056",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000129116"
+      ],
+      "human_symbols": [
+        "PALLD"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000129116",
+          "symbol": "PALLD",
+          "hgnc_id": "HGNC:17068",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "23022",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "KIAA0992",
+            "SIH002",
+            "CGI-151"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "PALLD"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Palld.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Calcrl",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000059588.13",
+      "mouse_stable_id": "ENSMUSG00000059588",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000064989"
+      ],
+      "human_symbols": [
+        "CALCRL"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000064989",
+          "symbol": "CALCRL",
+          "hgnc_id": "HGNC:16709",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "10203",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "CGRPR",
+            "CRLR"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "CALCRL"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Calcrl.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "9130023H24Rik",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000062944.4",
+      "mouse_stable_id": "ENSMUSG00000062944",
+      "direction": "down",
+      "historical48": false,
+      "human_stable_ids": [],
+      "human_symbols": [],
+      "human_targets": [],
+      "Ensembl_orthology_type": "unable_to_confirm_by_Ensembl",
+      "MGI_human_symbols": [],
+      "Ensembl_evidence_file": "",
+      "included_primary_current_panel": false,
+      "status": "no_Ensembl_human_ortholog_no_MGI_group",
+      "excluded_reason": "Successful source-stable-ID query returned empty human homologies and no matching mouse MGI homology group was found; do not infer a human target."
+    },
+    {
+      "mouse_symbol": "Tuba1a",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000072235.6",
+      "mouse_stable_id": "ENSMUSG00000072235",
+      "direction": "down",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000167552"
+      ],
+      "human_symbols": [
+        "TUBA1A"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000167552",
+          "symbol": "TUBA1A",
+          "hgnc_id": "HGNC:20766",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "7846",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "TUBA3",
+            "B-ALPHA-1",
+            "FLJ25113"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "TUBA1A"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Tuba1a.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Zbtb2",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000075327.10",
+      "mouse_stable_id": "ENSMUSG00000075327",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000181472"
+      ],
+      "human_symbols": [
+        "ZBTB2"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000181472",
+          "symbol": "ZBTB2",
+          "hgnc_id": "HGNC:20868",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "57621",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "KIAA1483",
+            "ZNF437",
+            "bA351K16.2"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "ZBTB2"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Zbtb2.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    },
+    {
+      "mouse_symbol": "Chd2",
+      "mouse_original_versioned_stable_id": "ENSMUSG00000078671.11",
+      "mouse_stable_id": "ENSMUSG00000078671",
+      "direction": "up",
+      "historical48": true,
+      "human_stable_ids": [
+        "ENSG00000173575"
+      ],
+      "human_symbols": [
+        "CHD2"
+      ],
+      "human_targets": [
+        {
+          "stable_id": "ENSG00000173575",
+          "symbol": "CHD2",
+          "hgnc_id": "HGNC:1917",
+          "HGNC_locus_group": "protein-coding gene",
+          "HGNC_locus_type": "gene with protein product",
+          "entrez_id": "1106",
+          "previous_symbols": [],
+          "alias_symbols": [
+            "FLJ38614",
+            "DKFZp547I1315",
+            "DKFZp781D1727",
+            "DKFZp686E01200"
+          ]
+        }
+      ],
+      "Ensembl_orthology_type": "1:1",
+      "MGI_human_symbols": [
+        "CHD2"
+      ],
+      "Ensembl_evidence_file": "raw/ensembl116_frozen_20261016/Chd2.json",
+      "included_primary_current_panel": true,
+      "status": "source_ID_specific_one_to_one_protein_coding_supported"
+    }
+  ],
+  "primary_up_symbols": [
+    "INSIG2",
+    "AMPD3",
+    "SLC1A4",
+    "TXNRD1",
+    "TRAF3",
+    "SAMD8",
+    "ANKRD33B",
+    "HAPSTR1",
+    "PKDCC",
+    "AFG3L2",
+    "SRFBP1",
+    "NEDD4L",
+    "ALDH18A1",
+    "HSPA4L",
+    "PDGFA",
+    "RHBDD1",
+    "OPTN",
+    "YARS1",
+    "LRRC58",
+    "PIM3",
+    "RUSC2",
+    "PTPN23",
+    "SH3TC1",
+    "PPFIA1",
+    "DUSP8",
+    "RALGPS1",
+    "AKNA",
+    "OSGIN2",
+    "SLC7A1",
+    "MAFF",
+    "MAFG",
+    "PALLD",
+    "CALCRL",
+    "ZBTB2",
+    "CHD2"
+  ],
+  "primary_down_symbols": [
+    "LOXL3",
+    "EPS8",
+    "BMP1",
+    "CCN1",
+    "KIF24",
+    "AZIN2",
+    "MXRA8",
+    "PYCARD",
+    "CEP19",
+    "ADAMTS2",
+    "KIF15",
+    "FERMT2",
+    "SEMA7A",
+    "ZNRF3",
+    "COL6A3",
+    "TUBA1A"
+  ],
+  "primary_up_stable_ids": [
+    "ENSG00000125629",
+    "ENSG00000133805",
+    "ENSG00000115902",
+    "ENSG00000198431",
+    "ENSG00000131323",
+    "ENSG00000156671",
+    "ENSG00000164236",
+    "ENSG00000182831",
+    "ENSG00000162878",
+    "ENSG00000141385",
+    "ENSG00000151304",
+    "ENSG00000049759",
+    "ENSG00000059573",
+    "ENSG00000164070",
+    "ENSG00000197461",
+    "ENSG00000144468",
+    "ENSG00000123240",
+    "ENSG00000134684",
+    "ENSG00000163428",
+    "ENSG00000198355",
+    "ENSG00000198853",
+    "ENSG00000076201",
+    "ENSG00000125089",
+    "ENSG00000131626",
+    "ENSG00000184545",
+    "ENSG00000136828",
+    "ENSG00000106948",
+    "ENSG00000164823",
+    "ENSG00000139514",
+    "ENSG00000185022",
+    "ENSG00000197063",
+    "ENSG00000129116",
+    "ENSG00000064989",
+    "ENSG00000181472",
+    "ENSG00000173575"
+  ],
+  "primary_down_stable_ids": [
+    "ENSG00000115318",
+    "ENSG00000151491",
+    "ENSG00000168487",
+    "ENSG00000142871",
+    "ENSG00000186638",
+    "ENSG00000142920",
+    "ENSG00000162576",
+    "ENSG00000103490",
+    "ENSG00000174007",
+    "ENSG00000087116",
+    "ENSG00000163808",
+    "ENSG00000073712",
+    "ENSG00000138623",
+    "ENSG00000183579",
+    "ENSG00000163359",
+    "ENSG00000167552"
+  ],
+  "historical48_up_symbols": [
+    "INSIG2",
+    "AMPD3",
+    "SLC1A4",
+    "TXNRD1",
+    "TRAF3",
+    "SAMD8",
+    "PKDCC",
+    "AFG3L2",
+    "SRFBP1",
+    "NEDD4L",
+    "ALDH18A1",
+    "HSPA4L",
+    "PDGFA",
+    "RHBDD1",
+    "OPTN",
+    "LRRC58",
+    "PIM3",
+    "RUSC2",
+    "PTPN23",
+    "SH3TC1",
+    "PPFIA1",
+    "DUSP8",
+    "RALGPS1",
+    "AKNA",
+    "OSGIN2",
+    "SLC7A1",
+    "MAFF",
+    "MAFG",
+    "PALLD",
+    "CALCRL",
+    "ZBTB2",
+    "CHD2"
+  ],
+  "historical48_down_symbols": [
+    "LOXL3",
+    "EPS8",
+    "BMP1",
+    "CCN1",
+    "KIF24",
+    "AZIN2",
+    "MXRA8",
+    "PYCARD",
+    "CEP19",
+    "ADAMTS2",
+    "KIF15",
+    "FERMT2",
+    "SEMA7A",
+    "ZNRF3",
+    "COL6A3",
+    "TUBA1A"
+  ]
+}
