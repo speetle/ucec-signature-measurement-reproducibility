@@ -4,7 +4,7 @@ This release examines a bounded measurement question: when patients and a partia
 
 ## Reproduce
 
-Use Python 3.9+ with the pinned requirements, R and survival 3.8.6. The tested Python numerical environment is in environment.json. The code uses two computational threads per process. No fee-based service or wet experiment is required. Runtime depends on hardware; the included validation is same-host computational verification, not independent hardware replication.
+Use the tested Python 3.9.6 environment with the pinned requirements, R and survival 3.8.6. The tested Python numerical environment is in environment.json. The code uses two computational threads per process. No fee-based service or wet experiment is required. Runtime depends on hardware; the included validation is same-host computational verification, not independent hardware replication.
 
     python -m pip install -r requirements.txt
     python reproduce.py --fetch-missing
@@ -20,7 +20,7 @@ Figure-only use requires prior complete analysis outputs. The complete entry req
 
 ## What is recalculated
 
-The single entry recomputes primary 20,000-draw patient contrasts, weight controls and batch mismatch, three structural references, 29 member deletions, hypothetical LOXL3 scenarios, actual MS benchmarks, 278,400 observation-mask rows, independent mapped-array projections, RPPA mapping and patient pairing, nested held-out prediction, lineage-count scores and exact donor tests, detailed/simplified adjustment, source48 clinical 500 refits, and association/PH diagnostics. Every displayed panel is reconstructed from those results. Numeric comparison files and stage logs identify the actual scope and failures.
+The single entry recomputes primary 20,000-draw patient contrasts, weight controls and batch mismatch, three structural references, 29 member deletions, hypothetical LOXL3 scenarios, actual MS benchmarks, 278,400 observation-mask rows, independent mapped-array projections, RPPA mapping and patient pairing, nested held-out prediction, lineage-count scores and exact donor tests, detailed/simplified adjustment, patient-level protein branch coverage and post-review complete29 sensitivities, source48 clinical 500 refits, and association/PH diagnostics. Every displayed panel is reconstructed from those results. Numeric comparison files and uniquely identified results/runs/<run_id>/run_record.json files identify the actual scope, time, commit and failures. Full-analysis and figures-only stage summaries are separate; a later plot-only run does not overwrite the full-analysis record.
 
 Input layers remain explicit. RNA/protein matrices are publisher-processed or frozen gene-mapped analysis inputs. Cell inputs are raw-count and corrected-count lineage aggregates plus recorded QC/annotation evidence, not raw single-cell reads. The original upstream QC and marker-annotation scripts are supplied for inspection in upstream_reference; the entry does not rerun them. Array input is the deposited-scale, gene-mapped matrix, not CEL reconstruction. Clinical analyses start from adjudicated individual analysis records. No raw FASTQ alignment, raw MS quantification, new donor-identity mapping, measured AOI geometry, direct death assay or prospective clinical utility test is claimed.
 
