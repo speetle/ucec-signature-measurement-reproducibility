@@ -19,3 +19,5 @@ Code is covered by this repository's MIT license. Third-party data are subject t
 ## Verification record
 
 A fresh processed-input run and the extension checks are recorded in [`validation/20261031/`](../validation/20261031/README.md). The record specifies the evaluated commit and does not cover raw-assay reconstruction.
+
+The base workflow's Figures 1–5 have earlier panel layouts. To recreate the five figures in the current manuscript after the ordering run, use the renderer documented in `v17_review/README.md`. Figure 6 has its separate renderer.
