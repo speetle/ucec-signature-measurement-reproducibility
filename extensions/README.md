@@ -15,3 +15,7 @@ Follow `figure6/README.md`. `python extensions/figure6/run.py` downloads and ver
 Follow `source_sensitivity/README.md`. A GEO input download, three alternative statistical runs and exact comparison against the original 101-candidate audit are supplied. This is a post hoc sensitivity comparison on the same samples. It cannot prove independent cultures, remove transcript-usage bias, or validate cell-death mechanisms.
 
 Code is covered by this repository's MIT license. Third-party data are subject to the individual source terms in `THIRD_PARTY_DATA.md` and `figure6/README.md`.
+
+## Verification record
+
+A fresh processed-input run and the extension checks are recorded in [`validation/20261031/`](../validation/20261031/README.md). The record specifies the evaluated commit and does not cover raw-assay reconstruction.
