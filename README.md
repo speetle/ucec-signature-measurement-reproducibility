@@ -42,3 +42,7 @@ The 31 external eligible Hallmarks and 19 unavailable sets are both retained; 11
 ## Provenance and attribution
 
 See input_manifest.json, external_sources.json, optional_sources.json, THIRD_PARTY_DATA.md and panel_registry.json. A processed-data reconstruction is not a reconstruction of every raw experiment. The manuscript and author-specific declarations are maintained separately; this code repository does not supply or invent author affiliations, ethics determinations, grants, conflicts, journal decisions or a data DOI.
+
+## Later analyses
+
+The post hoc ordering/RPPA summary, Figure 6 perturbation tests, and source-signature statistical sensitivity are in [`extensions/`](extensions/README.md). They add to, and do not change, the archived v1.0.1 scope. Read each extension's input and independence limitations before use.

@@ -1,0 +1,18 @@
+{
+  "GSE73024_AN3CA基因表达与响应.csv": {
+    "sha256": "5ef2a1a271f0c86e677a2255191f62bd51a207cdd102b515ba92fe24dcae9f16",
+    "bytes": 2956202
+  },
+  "Tahoe板2_AN3官方响应.npz": {
+    "sha256": "515777b2226821add085c0ee95cc40eb5daa59eb6bd94b2e3b19b675bcbd9323",
+    "bytes": 8444491
+  },
+  "Tahoe板2官方响应完整性.csv": {
+    "sha256": "53b96b35a7a2f2c4df6e50cc5ec325fde1c7e79ba6344e812d904fef21af39e0",
+    "bytes": 4692
+  },
+  "Tahoe源48及共有29基因映射.csv": {
+    "sha256": "b319a078295d0deba557a8161068bf95f3c35b1959864956ebd4544438f14ec3",
+    "bytes": 2324
+  }
+}

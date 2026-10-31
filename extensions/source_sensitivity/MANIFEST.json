@@ -1,0 +1,18 @@
+{
+  "legacy101.csv": {
+    "sha256": "9df3b6d20d39e29ac3fafbe95ecf6c5b236038547d1cdc78b0f1e0a151d2a546",
+    "bytes": 6768
+  },
+  "original101_audit.csv": {
+    "sha256": "63c48ccdbfac14f92d664e23b124697c5b7e295f03ffaab7543a7baeb89f77c8",
+    "bytes": 30190
+  },
+  "sample_map.csv": {
+    "sha256": "f88dbd00d4ca1d32cffc62af3fc83899944b252889d96122b83630a685af9356",
+    "bytes": 745
+  },
+  "source101_gene_traceability.csv": {
+    "sha256": "c98dcd8ffe31946dba9d7c3964e1c36e5b22fef80567a4d8ecd9e8813cf63ecd",
+    "bytes": 26869
+  }
+}
