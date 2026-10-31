@@ -4,7 +4,7 @@ These scripts extend the public v1.0.1 processed-data reproducibility archive. T
 
 ## Ordering and RPPA aggregate
 
-Run `python reproduce.py` first to generate the original v1.0.1 `results/null` and `results/rppa` inputs. Then run `python extensions/v17_review/reproduce_v17.py`. The latter needs the four prior outputs listed in `v17_review/README.md`; it is a downstream rerun and does not replace the v1.0.1 acquisition/processing workflow. The independent CPTAC portal returned HTTP 403 in one check; if retrieval is unavailable, provide the original permitted version-3.0 inputs locally and verify the SHA-256 listed in `external_sources.json`. The original RPPA download is also subject to its provider's availability and terms.
+Run `python reproduce.py` first to generate the original v1.0.1 `results/null` and `results/rppa` inputs. Then run `python extensions/v17_review/reproduce_v17.py`. The latter needs the four prior outputs listed in `v17_review/README.md`; it is a downstream rerun and does not replace the v1.0.1 acquisition/processing workflow. The version-3.0 source URLs and SHA-256 are listed in `external_sources.json`. On 2026-10-31, the recorded www host returned all three source files with matching hashes; availability can change. Do not substitute a different file without auditing its equivalence. The original RPPA download is also subject to its provider's availability and terms.
 
 ## Figure 6
 
