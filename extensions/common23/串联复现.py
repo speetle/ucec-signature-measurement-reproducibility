@@ -10,4 +10,5 @@ for cohort in ['discovery','external']:
  target=inp/cohort;target.mkdir();shutil.copy2(release/'input'/cohort/'protein.csv.gz',target/'protein.csv.gz')
 for n in ['生成参照.py','汇总与审计.py']:shutil.copy2(here/n,work/n)
 subprocess.run([sys.executable,str(work/'生成参照.py')],check=True);subprocess.run([sys.executable,str(work/'汇总与审计.py')],check=True)
+subprocess.run(['Rscript',str(here/'三队列配对统计.R'),str(inp),str(work/'output')],check=True)
 print('完成：',work/'output',flush=True)

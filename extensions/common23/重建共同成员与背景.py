@@ -19,3 +19,6 @@ pd.DataFrame({'gene':panel['up']+panel['down'],'direction':['up']*len(panel['up'
 for label,r,pro in [('发现队列',r1,p1),('独立患者队列',r2,p2)]:
  samples=[x for x in r.columns if x in pro.columns];r.loc[bg,samples].to_csv(out/(label+' 复核RNA.csv.gz'),compression='gzip')
 print('上游输入重建完成',flush=True)
+
+for label,r,pro in [('发现队列',r1,p1),('独立患者队列',r2,p2),('宫颈癌队列',r3,p3)]:
+ names=[c for c in r.columns if c in pro.columns]; R=r.loc[bg,names].rank(axis=0,pct=True,method='average'); pp=pro.loc[common,names]; Z=pp.sub(pp.mean(axis=1),axis=0).div(pp.std(axis=1,ddof=1),axis=0); full=R.loc[panel['up']].mean()-R.loc[panel['down']].mean();sub=R.loc[up].mean()-R.loc[down].mean();protein=Z.loc[up].mean()-Z.loc[down].mean();pd.DataFrame({'sample':names,'full48':full.reindex(names).values,'common':sub.reindex(names).values,'protein':protein.reindex(names).values,'protein_observed':pp.notna().sum(axis=0).values}).to_csv(out/(label+' 统一子集评分.csv'),index=False)
