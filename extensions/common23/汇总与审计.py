@@ -1,0 +1,10 @@
+# coding:utf-8
+from pathlib import Path
+import pandas as pd,numpy as np,json,hashlib
+p=Path(__file__).resolve().parent/'output';d=pd.read_csv(p/'共同背景新参照结果.csv');mem=pd.read_csv(p/'共同背景新参照成员.csv.gz');base=p.parent/'input';m=pd.read_csv(base/'复核成员清单.csv');truth={}
+for co,label in [('discovery','发现队列'),('external','独立患者队列')]:
+ R=pd.read_csv(base/(label+' 复核RNA.csv.gz'),index_col=0);P=pd.read_csv(base/co/'protein.csv.gz',index_col=0).loc[:,R.columns];rank=R.rank(axis=0,pct=True);z=P.sub(P.mean(axis=1),axis=0).div(P.std(axis=1,ddof=1),axis=0);up=m.loc[m.direction.eq('up'),'gene'];down=m.loc[m.direction.eq('down'),'gene'];cu=m.loc[m.direction.eq('up') & m.common,'gene'];cd=m.loc[m.direction.eq('down') & m.common,'gene'];full=rank.loc[up].mean()-rank.loc[down].mean();common=rank.loc[cu].mean()-rank.loc[cd].mean();protein=z.loc[cu].mean()-z.loc[cd].mean();truth[co]=common.round(12).rank().corr(protein.rank())-full.round(12).rank().corr(protein.rank())
+rows=[]
+for (co,ens),x in d.groupby(['cohort','ensemble']):
+ vals=x.delta.dropna(); k=int((vals>=truth[co]).sum());rows.append({'cohort':co,'ensemble':ens,'N':len(vals),'positive_count':int((vals>0).sum()),'median_delta':vals.median(),'source_delta':truth[co],'upper_count':k,'upper_fraction_plus1':(k+1)/(len(vals)+1),'median_cov_rmse':x.covariance_rmse.median(),'median_expression_masd':x.expression_masd.median(),'median_detection_masd':x.detection_masd.median()})
+s=pd.DataFrame(rows);s.to_csv(p/'共同背景新参照汇总.csv',index=False);groups=mem.groupby(['ensemble','panel']).agg(n=('gene','size'),unique=('gene','nunique'),common=('common','sum'));audit={'all_unique_48_with_23_common':bool(((groups.n==48)&(groups['unique']==48)&(groups.common==23)).all()),'panels':len(groups),'missing_results':int(d.delta.isna().sum()),'note':'Generated after observation of primary results; conditional descriptive reference, not confirmatory test; external proteomic missingness/variance used in candidate eligibility.'};(p/'共同背景参照结构审计.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2));print(s.to_string(index=False));print(audit)
